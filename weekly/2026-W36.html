@@ -3,32 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>中文新闻周报（2026年8月28日—9月4日）</title>
+  <title>新闻周报-2026-W36</title>
   <link rel="alternate" type="application/rss+xml" title="RSS 新闻简报" href="https://zjcjim.github.io/rss-briefing/weekly/feed.xml">
   <style>
-    body { max-width: 760px; margin: 2rem auto; padding: 0 1rem; color: #202124; font: 17px/1.75 system-ui, sans-serif; }
-    h1, h2, h3 { line-height: 1.3; }
-    a { color: #0969da; }
-    blockquote { border-left: 4px solid #d0d7de; margin-left: 0; padding-left: 1rem; color: #59636e; }
-    table { border-collapse: collapse; display: block; max-width: 100%; overflow-x: auto; }
-    th, td { border: 1px solid #d0d7de; padding: .5rem .75rem; text-align: left; vertical-align: top; }
-    th { background: #f6f8fa; }
+    :root { color-scheme: light dark; --paper: #fffdf8; --canvas: #f1eee6; --ink: #17202b; --muted: #68717c; --line: #d9d4c8; --accent: #174a69; --warm: #b84a32; --soft: #edf3f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--canvas); font: 17px/1.78 ui-serif, "Songti SC", "Noto Serif CJK SC", Georgia, serif; }
+    .site-header { max-width: 920px; margin: 0 auto; padding: 2rem clamp(1.25rem, 5vw, 4.5rem) 1rem; display: flex; align-items: end; justify-content: space-between; border-bottom: 1px solid var(--line); }
+    .brand { color: var(--ink); text-decoration: none; font: 800 1.05rem/1.1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .12em; }
+    .brand small { display: block; margin-top: .45rem; color: var(--muted); font-size: .7rem; font-weight: 650; letter-spacing: .18em; }
+    .subscribe { color: var(--accent); font: 700 .78rem/1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+    main { max-width: 920px; margin: 0 auto 4rem; padding: clamp(2rem, 6vw, 5rem) clamp(1.25rem, 8vw, 6rem); background: var(--paper); box-shadow: 0 24px 70px rgb(48 43 32 / .08); }
+    article { max-width: 720px; margin: auto; }
+    h1, h2, h3 { color: var(--ink); font-family: ui-sans-serif, system-ui, sans-serif; }
+    h1 { max-width: 18ch; margin: 0 0 3.5rem; font-size: clamp(2.25rem, 6vw, 4.25rem); line-height: 1.08; letter-spacing: -.045em; }
+    h1::after { content: ""; display: block; width: 3.5rem; height: .32rem; margin-top: 1.5rem; background: var(--warm); }
+    h2 { margin: 3.8rem 0 1.4rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.25; letter-spacing: -.025em; }
+    h2::before { content: ""; display: inline-block; width: .55rem; height: .55rem; margin: 0 .65rem .14rem 0; background: var(--warm); }
+    h3 { margin: 2.3rem 0 .8rem; color: var(--accent); font-size: 1.2rem; line-height: 1.45; letter-spacing: -.015em; }
+    p { margin: 0 0 1.15rem; }
+    article > h2:first-of-type + p { margin: 0 0 2rem; padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); background: var(--soft); font-size: 1.06rem; line-height: 1.8; }
+    article p:has(> strong:first-child) { padding: .9rem 1rem; border-left: 3px solid var(--warm); background: color-mix(in srgb, var(--warm) 6%, var(--paper)); color: var(--muted); }
+    a { color: var(--accent); text-decoration-thickness: .08em; text-underline-offset: .18em; }
+    a:hover { color: var(--warm); }
+    strong { color: #111820; }
+    blockquote { margin: 1.5rem 0; padding: .9rem 1.2rem; border-left: 4px solid var(--warm); background: color-mix(in srgb, var(--warm) 7%, var(--paper)); color: var(--muted); }
+    blockquote p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.35rem; }
+    li { margin: .65rem 0; padding-left: .2rem; }
+    hr { height: 1px; margin: 3.5rem 0; border: 0; background: var(--line); }
+    table { width: 100%; margin: 1.5rem 0; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: .55rem; overflow: hidden; font: .9rem/1.55 ui-sans-serif, system-ui, sans-serif; }
+    th, td { padding: .75rem .85rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th:last-child, td:last-child { border-right: 0; }
+    tr:last-child td { border-bottom: 0; }
+    th { background: var(--soft); font-weight: 750; }
+    tbody tr:nth-child(even) { background: color-mix(in srgb, var(--canvas) 55%, transparent); }
+    @media (max-width: 680px) {
+      .site-header { padding-top: 1.25rem; }
+      main { margin-bottom: 0; box-shadow: none; }
+      h1 { margin-bottom: 2.75rem; }
+      table { display: block; max-width: 100%; overflow-x: auto; white-space: nowrap; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #171a1d; --canvas: #101214; --ink: #edf0f2; --muted: #aeb6bd; --line: #353b40; --accent: #79b9d6; --warm: #e47a60; --soft: #202a2f; }
+      strong { color: #f6f7f8; }
+      main { box-shadow: none; }
+    }
+    @media print { body, main { background: white; box-shadow: none; } .site-header { display: none; } main { padding: 0; } a { color: inherit; } }
   </style>
 </head>
-<body><h1>中文新闻周报（2026年8月28日—9月4日）</h1>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">BRIEFING<small>RSS 中文新闻简报</small></a>
+    <a class="subscribe" href="https://zjcjim.github.io/rss-briefing/weekly/feed.xml">RSS 订阅 ↗</a>
+  </header>
+  <main><article><h1>新闻周报-2026-W36</h1>
 <h2>本周概览</h2>
-<p>本周全球市场围绕三大主线展开：美国8月非农就业数据远超预期，引发对美联储加息路径的重新定价；苹果、特斯拉等科技巨头进入新品发布与商业化关键节点；AI技术继续向企业办公、医学影像、端侧芯片等纵深领域渗透。与此同时，霍尔木兹海峡航运中断风险持续发酵，全球能源供应格局面临考验。</p>
+<p>本周呈现三条核心趋势：强劲就业数据重新扰动全球利率预期；苹果新品与特斯拉无人驾驶车把科技竞争推向商业化验证；AI从模型能力继续深入企业工具、医学影像与端侧芯片。与此同时，霍尔木兹海峡风险仍在考验能源与运输体系韧性。</p>
 <h2>最值得关注</h2>
-<p><strong>美国8月非农数据大超预期，加息预期骤然升温。</strong> 美国劳工统计局9月4日公布数据显示，8月非农就业人数增加16.2万人，明显高于过去12个月月均增加3.1万人；失业率维持在4.1%。<a href="https://36kr.com/newsflashes/3969077037429248?f=rss">36氪</a> 数据公布后，现货黄金失守4400美元/盎司，日内跌1.64%。<a href="https://wallstreetcn.com/articles/3781105">华尔街见闻</a> 华尔街日报记者Nick Timiraos分析认为，8月就业报告消除了美联储加息的一大阻碍——此前7月就业数据为负增长，如今不仅修正为正值，过去六个月平均招聘增速也推升至两年多来最高水平。<a href="https://wallstreetcn.com/articles/3781107">华尔街见闻</a> 美国总统特朗普随后在Truth Social发文敦促美联储&quot;降低利率&quot;，并警告&quot;要么降息，否则我就停止与那些我们存在贸易逆差的国家进行贸易&quot;。<a href="https://wallstreetcn.com/articles/3781108">华尔街见闻</a></p>
-<p><strong>苹果进入&quot;特努斯时代&quot;，史上最大规模新品潮开启。</strong> 新任首席执行官约翰·特努斯将于9月9日&quot;惊喜与闪耀&quot;发布会登台，发布最新款iPhone和Apple Watch。据华尔街见闻报道，苹果未来几年将推出一系列全新形态产品，包括可折叠iPhone（内部称&quot;iPhone Ultra&quot;，售价预计超2000美元）、配备OLED屏幕的iPad mini、首批触控显示屏与OLED面板的MacBook等。<a href="https://wallstreetcn.com/articles/3781109">华尔街见闻</a> 然而，据日经亚洲援引知情供应链人士消息，折叠屏iPhone目前日产量仅为&quot;几百&quot;台，远不及大规模商业化出货所需的每日数万台水平，苹果今年为该机型设定的产量目标为800万至1000万台。<a href="https://wallstreetcn.com/articles/3781082">华尔街见闻</a></p>
+<h3>01 / 美国非农超预期，利率路径重新定价</h3>
+<p>美国劳工统计局9月4日公布数据显示，8月非农就业人数增加16.2万人，明显高于过去12个月月均增加3.1万人；失业率维持在4.1%。<a href="https://36kr.com/newsflashes/3969077037429248?f=rss">36氪</a> 数据公布后，现货黄金失守4400美元/盎司，日内跌1.64%。<a href="https://wallstreetcn.com/articles/3781105">华尔街见闻</a> 华尔街日报记者Nick Timiraos分析认为，此次报告降低了就业快速走弱的担忧；特朗普随后公开敦促美联储降息。<a href="https://wallstreetcn.com/articles/3781107">华尔街见闻</a> <a href="https://wallstreetcn.com/articles/3781108">华尔街见闻</a></p>
+<p><strong>简要解读</strong>：就业韧性让货币政策的焦点从“是否需要托底”转向“通胀是否允许宽松”，资产价格可能因此对后续数据更加敏感。若就业继续偏强且通胀没有同步回落，则利率维持高位甚至再度收紧的预期可能升温；实际路径仍取决于通胀和美联储表态。</p>
+<h3>02 / 苹果进入新管理周期，新品路线接受供应链检验</h3>
+<p>新任首席执行官约翰·特努斯将于9月9日发布最新款iPhone和Apple Watch。报道还提到苹果未来数年的可折叠iPhone、OLED iPad mini与触控OLED MacBook等产品路线。<a href="https://wallstreetcn.com/articles/3781109">华尔街见闻</a> 但供应链消息称，折叠屏iPhone当前日产量仍远低于大规模出货所需水平。<a href="https://wallstreetcn.com/articles/3781082">华尔街见闻</a></p>
+<p><strong>简要解读</strong>：新品密度上升既是产品周期更新，也是在新管理层下验证苹果创新与执行能力的窗口。若折叠屏等新形态能解决量产和体验问题，苹果可能打开新的高端换机需求；若供应链爬坡迟缓，宏大的产品路线未必能迅速转化为收入增长。</p>
+<h3>03 / 头部模型集中更新，竞争转向环境交互能力</h3>
+<p>9月1日至3日，Anthropic、Google与OpenAI先后发布前沿模型更新。报道显示，竞争重点仍包括编程、复杂推理与长时间Agent任务，而Computer Use、Browser和Tool Use正被整合为更完整的环境交互能力。<a href="https://wallstreetcn.com/articles/3781088">华尔街见闻</a></p>
+<p><strong>简要解读</strong>：模型能力正在从回答问题走向直接操作软件与完成流程，这可能重塑应用入口和软件分工。若可靠性、权限控制与成本达到生产要求，Agent可能承担更多跨应用任务；其扩散速度仍取决于安全边界和真实任务成功率。</p>
+<h3>04 / Cybercab商业化启动，监管成为扩张约束</h3>
+<p>特斯拉在得克萨斯州奥斯汀启动Cybercab少量商业化部署，该车不配备方向盘和踏板，目标售价不到3万美元。<a href="https://wallstreetcn.com/charts/41959764">华尔街见闻</a> 美国国家公路交通安全管理局已对约1000辆Cybercab展开审计；相关机构认为其成本优势较明确，但车队规模与扩张速度仍是核心问题。<a href="https://wallstreetcn.com/articles/3781098">华尔街见闻</a> <a href="https://wallstreetcn.com/articles/3781091">华尔街见闻</a></p>
+<p><strong>简要解读</strong>：无人驾驶出租车的竞争开始从技术演示进入单位经济性、合规证据与规模运营的综合测试。若审计顺利且车队保持稳定运行，低硬件成本可能转化为扩张优势；若安全或申报流程受阻，商业化节奏可能明显慢于产品叙事。</p>
 <h2>分类阅读</h2>
 <h3>科技与AI</h3>
-<p><strong>三大头部模型公司接连更新前沿模型。</strong> 9月1日Anthropic发布Claude Fable 5.1，9月2日Google发布Gemini 3.8 Flash，9月3日OpenAI发布GPT-6 Astra。重点仍是更强的Coding、更复杂的推理、更长时间的Agent任务，但更值得关注的趋势是Computer Use、Browser和Tool Use越来越成为一套统一的环境交互能力。OpenAI将Astra定位为&quot;全球最强的计算机使用模型&quot;，在OSWorld 2.0上达到72.6%（此前GPT-5.6 Sol为65.7%），完成任务平均耗时从约75分钟缩短至约40分钟。<a href="https://wallstreetcn.com/articles/3781088">华尔街见闻</a></p>
 <p><strong>美国多家人工智能公司旗下服务同日发生故障。</strong> 9月3日，多家AI公司旗下服务在相近时段发生故障，部分用户一度无法正常使用聊天、API等服务，目前主要服务均已恢复。公开信息尚不能确认几起故障是否存在共同原因。<a href="https://36kr.com/newsflashes/3968911238541573?f=rss">36氪</a></p>
 <p><strong>沙特推出中企开发的阿拉伯语大模型。</strong> 沙特人工智能公司胡迈因公司9月3日宣布推出前沿阿拉伯语大模型humain-m3，基于中国稀宇科技MiniMax M3模型打造，拥有4280亿参数，使用超过1万亿个阿拉伯语原生内容词元展开进一步预训练。<a href="https://36kr.com/newsflashes/3969048191480320?f=rss">36氪</a></p>
 <p><strong>AI医学影像进入&quot;智能体&quot;时代。</strong> 在第五届医学影像AI学术会议上，一场公开&quot;人机读片大赛&quot;成为焦点。高年资医生加多任务智能体的组合平均得分最高（85.2分），独立工作的智能体得分66.2分但用时仅20分32秒（各组用时均在66-88分钟之间）。数坤科技发布了CT全胸、DR全身两款临床智能体产品。<a href="https://36kr.com/p/3968685170700801?f=rss">36氪</a></p>
 <h3>汽车与出行</h3>
-<p><strong>特斯拉Cybercab正式上路，随即遭遇监管审查。</strong> 特斯拉本周在得克萨斯州奥斯汀启动Cybercab少量商业化部署，该车不配备方向盘和踏板，目标售价不到3万美元。<a href="https://wallstreetcn.com/charts/41959764">华尔街见闻</a> 但美国国家公路交通安全管理局（NHTSA）已对约1000辆特斯拉Cybercab展开审计，重点审查特斯拉申报联邦车辆安全标准合规时所依据的流程和技术数据。得州官方记录显示，截至上周五上午，特斯拉在该州共登记420辆自动驾驶车辆，其中Cybercab为45辆。<a href="https://wallstreetcn.com/articles/3781098">华尔街见闻</a> 高盛和巴克莱认为，Cybercab的成本优势较为明确（若规模化成本达2万至3万美元，每英里可形成约0.05至0.30美元成本优势），但车队规模仍小、扩张速度仍慢是核心问题。<a href="https://wallstreetcn.com/articles/3781091">华尔街见闻</a></p>
 <p><strong>蔚来连续三季度经营利润为正，李斌谈&quot;另一种压力&quot;。</strong> 蔚来9月1日晚交出盈利财报，连续三个季度实现经营利润为正。李斌表示，AI热潮正从三个方向挤压汽车行业：AIDC大量吸走内存、PCB及铜铝等资源抬高硬件成本；自动驾驶人才被具身智能创业公司分流；资本市场注意力转向数据中心和机器人。蔚来三季度预计交付10.8万至11.1万辆，四季度目标月交付4万辆。<a href="https://wallstreetcn.com/articles/3781103">华尔街见闻</a></p>
 <p><strong>长安汽车推动一线员工用AI造工具。</strong> 长安汽车电气系统集成测试工程师毛海将线束选型计算从熟练工程师需两天的2880分钟缩短至约5分钟。质量工程师郭子雅（材料专业出身、无软件开发经验）借助AI自行开发扫码枪文字转换工具。长安汽车AI应用开发处经理肖世强表示：&quot;场景不需要刻意去找，业务痛点一直存在。&quot;<a href="https://wallstreetcn.com/articles/3781104">华尔街见闻</a></p>
 <h3>半导体与硬件</h3>
@@ -48,75 +98,21 @@
 <p><strong>七部门联合印发数字化绿色化协同转型方案。</strong> 中央网信办等七部门联合印发《促进数字化绿色化协同转型发展实施方案（2026-2030年）》，提出到2030年算力设施、5G基站等新兴领域用能效率大幅提升，探索算力设施800V高压直流供电架构，推动超百千瓦单机柜部署。<a href="https://36kr.com/newsflashes/3968930128474624?f=rss">36氪</a> 方案还提出推动应用虚拟现实、人工智能等数智技术创新消费模式，扩大人工智能终端、智能可穿戴、绿色家电等产品供给。<a href="https://36kr.com/newsflashes/3968935885926921?f=rss">36氪</a></p>
 <p><strong>证监会就私募基金募集监督管理办法征求意见。</strong> 《募集办法》共七章四十五条，明确&quot;卖者尽责、买者自负&quot;基本原则，完善合格投资者认定标准，强化穿透监管要求，压实适当性管理义务与风险揭示义务。<a href="https://wallstreetcn.com/articles/3781094">华尔街见闻</a></p>
 <p><strong>哔哩哔哩拟发售7亿美元可换股优先票据。</strong> 腾讯将按与其他投资者相同条款认购2亿美元票据，并通过二级配售出售约4亿美元现有Z类普通股。<a href="https://36kr.com/newsflashes/3969060275745282?f=rss">36氪</a></p>
+<h2>下周观察</h2>
+<ul>
+<li><strong>美国货币政策</strong>：关注后续通胀数据与美联储官员表态能否确认就业数据带来的重新定价。若通胀仍具黏性，利率预期可能继续上修。</li>
+<li><strong>苹果新品发布</strong>：关注9月9日发布会的产品定价、AI能力和供应节奏。若新形态产品仍受量产约束，短期业绩贡献可能有限。</li>
+<li><strong>自动驾驶监管</strong>：关注Cybercab审计是否披露新的安全或合规要求。若监管提出额外整改，车队扩张时间表可能后移。</li>
+<li><strong>能源运输风险</strong>：关注霍尔木兹海峡通航和地区局势。若航运限制延续，能源价格与供应链成本可能继续承压。</li>
+</ul>
 <h2>值得阅读全文</h2>
 <ul>
 <li><a href="https://wallstreetcn.com/articles/3781109">Ternus时代正式开启！苹果将迎史上最大规模新品潮</a> —— 详细梳理苹果未来数年产品路线图，从折叠iPhone到触屏MacBook，信息量极大。</li>
 <li><a href="https://wallstreetcn.com/articles/3781088">GPT-6，&quot;强拆&quot;App的墙</a> —— 分析三大模型公司同期更新的深层趋势：Computer Use正从&quot;兜底能力&quot;变为常规交互方式。</li>
 <li><a href="https://wallstreetcn.com/articles/3781104">从2880分钟到5分钟，长安汽车让一线员工造AI工具</a> —— 展示企业AI落地的另一面：最了解问题的人开始自己把解决方案做出来。</li>
 <li><a href="https://wallstreetcn.com/articles/3781103">李斌开始算另一笔账</a> —— 蔚来盈利后面对的新压力：AI热潮如何从成本、人才和资本三个方向挤压车企。</li>
-<li><a href="https://wallstreetcn.com/articles/3781093">黄金将再次闪耀？法兴重启多头、德银称&quot;骑兵已至&quot;</a> —— 多家顶级机构以罕见一致性重返黄金市场，机构资金拐点或已确认。</li>
+<li><a href="https://wallstreetcn.com/articles/3781093">黄金将再次闪耀？法兴重启多头、德银称&quot;骑兵已至&quot;</a> —— 汇总多家机构对黄金市场的最新判断及其依据。</li>
 </ul>
-<h2>数据统计</h2>
-<table>
-<thead>
-<tr>
-<th>指标</th>
-<th>数据</th>
-<th>来源</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>美国8月非农新增就业</td>
-<td>16.2万人（预期5.5万）</td>
-<td><a href="https://wallstreetcn.com/articles/3781105">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>美国8月失业率</td>
-<td>4.1%</td>
-<td><a href="https://36kr.com/newsflashes/3969077037429248?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>全球亿万富翁总财富</td>
-<td>15.1万亿美元</td>
-<td><a href="https://36kr.com/newsflashes/3969070463906051?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>港交所前8月IPO集资额</td>
-<td>3424亿港元（同比+153%）</td>
-<td><a href="https://36kr.com/newsflashes/3969069105705225?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>全球智能手机价格涨幅</td>
-<td>平均+15%</td>
-<td><a href="https://wallstreetcn.com/articles/3781097">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>深交所本周自律监管措施</td>
-<td>95起</td>
-<td><a href="https://36kr.com/newsflashes/3969087274283272?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>上交所本周自律监管措施</td>
-<td>57起</td>
-<td><a href="https://36kr.com/newsflashes/3968927959937286?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>日本2027财年预算申请</td>
-<td>143.0656万亿日元（创新高）</td>
-<td><a href="https://36kr.com/newsflashes/3968929320268288?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>欧元区7月零售销售环比</td>
-<td>-0.6%</td>
-<td><a href="https://36kr.com/newsflashes/3968883185578500?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>市场监管总局上半年审结经营者集中案件</td>
-<td>298起（禁止1起、附条件批准2起）</td>
-<td><a href="https://36kr.com/newsflashes/3969022579601669?f=rss">36氪</a></td>
-</tr>
-</tbody>
-</table>
+</article></main>
 </body>
 </html>

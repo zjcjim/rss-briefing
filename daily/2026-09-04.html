@@ -3,32 +3,74 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>中文新闻日报（2026-09-03 至 2026-09-04）</title>
+  <title>新闻日报-2026-09-03</title>
   <link rel="alternate" type="application/rss+xml" title="RSS 新闻简报" href="https://zjcjim.github.io/rss-briefing/daily/feed.xml">
   <style>
-    body { max-width: 760px; margin: 2rem auto; padding: 0 1rem; color: #202124; font: 17px/1.75 system-ui, sans-serif; }
-    h1, h2, h3 { line-height: 1.3; }
-    a { color: #0969da; }
-    blockquote { border-left: 4px solid #d0d7de; margin-left: 0; padding-left: 1rem; color: #59636e; }
-    table { border-collapse: collapse; display: block; max-width: 100%; overflow-x: auto; }
-    th, td { border: 1px solid #d0d7de; padding: .5rem .75rem; text-align: left; vertical-align: top; }
-    th { background: #f6f8fa; }
+    :root { color-scheme: light dark; --paper: #fffdf8; --canvas: #f1eee6; --ink: #17202b; --muted: #68717c; --line: #d9d4c8; --accent: #174a69; --warm: #b84a32; --soft: #edf3f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--canvas); font: 17px/1.78 ui-serif, "Songti SC", "Noto Serif CJK SC", Georgia, serif; }
+    .site-header { max-width: 920px; margin: 0 auto; padding: 2rem clamp(1.25rem, 5vw, 4.5rem) 1rem; display: flex; align-items: end; justify-content: space-between; border-bottom: 1px solid var(--line); }
+    .brand { color: var(--ink); text-decoration: none; font: 800 1.05rem/1.1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .12em; }
+    .brand small { display: block; margin-top: .45rem; color: var(--muted); font-size: .7rem; font-weight: 650; letter-spacing: .18em; }
+    .subscribe { color: var(--accent); font: 700 .78rem/1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+    main { max-width: 920px; margin: 0 auto 4rem; padding: clamp(2rem, 6vw, 5rem) clamp(1.25rem, 8vw, 6rem); background: var(--paper); box-shadow: 0 24px 70px rgb(48 43 32 / .08); }
+    article { max-width: 720px; margin: auto; }
+    h1, h2, h3 { color: var(--ink); font-family: ui-sans-serif, system-ui, sans-serif; }
+    h1 { max-width: 18ch; margin: 0 0 3.5rem; font-size: clamp(2.25rem, 6vw, 4.25rem); line-height: 1.08; letter-spacing: -.045em; }
+    h1::after { content: ""; display: block; width: 3.5rem; height: .32rem; margin-top: 1.5rem; background: var(--warm); }
+    h2 { margin: 3.8rem 0 1.4rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.25; letter-spacing: -.025em; }
+    h2::before { content: ""; display: inline-block; width: .55rem; height: .55rem; margin: 0 .65rem .14rem 0; background: var(--warm); }
+    h3 { margin: 2.3rem 0 .8rem; color: var(--accent); font-size: 1.2rem; line-height: 1.45; letter-spacing: -.015em; }
+    p { margin: 0 0 1.15rem; }
+    article > h2:first-of-type + p { margin: 0 0 2rem; padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); background: var(--soft); font-size: 1.06rem; line-height: 1.8; }
+    article p:has(> strong:first-child) { padding: .9rem 1rem; border-left: 3px solid var(--warm); background: color-mix(in srgb, var(--warm) 6%, var(--paper)); color: var(--muted); }
+    a { color: var(--accent); text-decoration-thickness: .08em; text-underline-offset: .18em; }
+    a:hover { color: var(--warm); }
+    strong { color: #111820; }
+    blockquote { margin: 1.5rem 0; padding: .9rem 1.2rem; border-left: 4px solid var(--warm); background: color-mix(in srgb, var(--warm) 7%, var(--paper)); color: var(--muted); }
+    blockquote p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.35rem; }
+    li { margin: .65rem 0; padding-left: .2rem; }
+    hr { height: 1px; margin: 3.5rem 0; border: 0; background: var(--line); }
+    table { width: 100%; margin: 1.5rem 0; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: .55rem; overflow: hidden; font: .9rem/1.55 ui-sans-serif, system-ui, sans-serif; }
+    th, td { padding: .75rem .85rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th:last-child, td:last-child { border-right: 0; }
+    tr:last-child td { border-bottom: 0; }
+    th { background: var(--soft); font-weight: 750; }
+    tbody tr:nth-child(even) { background: color-mix(in srgb, var(--canvas) 55%, transparent); }
+    @media (max-width: 680px) {
+      .site-header { padding-top: 1.25rem; }
+      main { margin-bottom: 0; box-shadow: none; }
+      h1 { margin-bottom: 2.75rem; }
+      table { display: block; max-width: 100%; overflow-x: auto; white-space: nowrap; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #171a1d; --canvas: #101214; --ink: #edf0f2; --muted: #aeb6bd; --line: #353b40; --accent: #79b9d6; --warm: #e47a60; --soft: #202a2f; }
+      strong { color: #f6f7f8; }
+      main { box-shadow: none; }
+    }
+    @media print { body, main { background: white; box-shadow: none; } .site-header { display: none; } main { padding: 0; } a { color: inherit; } }
   </style>
 </head>
-<body><h1>中文新闻日报（2026-09-03 至 2026-09-04）</h1>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">BRIEFING<small>RSS 中文新闻简报</small></a>
+    <a class="subscribe" href="https://zjcjim.github.io/rss-briefing/daily/feed.xml">RSS 订阅 ↗</a>
+  </header>
+  <main><article><h1>新闻日报-2026-09-03</h1>
 <h2>今日概览</h2>
 <p>本期日报覆盖 2026 年 9 月 3 日至 4 日的重要资讯。宏观层面，美国 8 月非农就业数据远超预期，引发市场对美联储政策路径的重新定价，特朗普则公开施压要求降息。科技产业方面，苹果新任 CEO 即将迎来首场发布会，市场预期公司将开启史上最大规模新品潮；三星与 Arm 启动端侧 AI 定制芯片合作，OpenAI 或成为关键客户。此外，特斯拉 Cybercab 遭遇美国联邦监管审查、全球智能手机因存储涨价而普遍提价等消息亦值得关注。</p>
 <hr />
 <h2>重点新闻</h2>
-<h3>美国 8 月非农远超预期，美联储政策博弈加剧</h3>
+<h3>01 / 美国 8 月非农远超预期，美联储政策博弈加剧</h3>
 <p>美国劳工统计局 9 月 4 日公布数据显示，8 月非农就业人数增加 16.2 万人，远超市场预期的 5.5 万人，失业率维持在 4.1%。<a href="https://wallstreetcn.com/articles/3781105">华尔街见闻</a> 数据公布后，现货黄金失守 4400 美元/盎司。美国总统特朗普随即在 Truth Social 发文敦促美联储&quot;降低利率&quot;，并警告&quot;要么降息，否则我就停止与那些我们存在贸易逆差的国家进行贸易&quot;。<a href="https://wallstreetcn.com/articles/3781108">华尔街见闻</a></p>
-<p><strong>为什么值得关注：</strong> 强劲的就业数据消除了美联储加息的一大反对理由。据&quot;美联储通讯社&quot;Nick Timiraos 分析，8 月就业报告不仅将 7 月负值修正为正值，还将过去六个月的平均招聘增速推升至两年多来的最高水平。<a href="https://wallstreetcn.com/articles/3781107">华尔街见闻</a> 市场对 9 月加息的押注迅速升温，但特朗普的公开施压为政策走向增添了政治不确定性。</p>
-<h3>苹果新 CEO 首秀在即，史上最大规模新品潮预期升温</h3>
+<p><strong>简要解读：</strong> 强劲的就业数据降低了经济快速走弱的担忧，也让货币政策重新面对增长与通胀之间的取舍。据&quot;美联储通讯社&quot;Nick Timiraos 分析，报告还上修了此前数据。<a href="https://wallstreetcn.com/articles/3781107">华尔街见闻</a> 若就业保持韧性而通胀没有同步回落，市场对宽松的预期可能继续降温；实际政策仍取决于后续数据和美联储判断。</p>
+<h3>02 / 苹果新 CEO 首秀在即，史上最大规模新品潮预期升温</h3>
 <p>苹果公司将于 9 月 9 日举行&quot;惊喜与闪耀&quot;发布会，新任首席执行官约翰·特努斯将登台发布最新款 iPhone 和 Apple Watch。据华尔街见闻报道，苹果即将开启其历史上规模最为庞大的新品发布潮，2026 年至 2027 年将推出可折叠 iPhone（内部称&quot;iPhone Ultra&quot;，售价预计超 2000 美元）、配备 OLED 屏幕的 iPad mini、首批触控屏 MacBook 等一系列全新形态产品。<a href="https://wallstreetcn.com/articles/3781109">华尔街见闻</a></p>
-<p><strong>为什么值得关注：</strong> 此次发布会是新任 CEO 特努斯正式执掌大权后的首次公开亮相，标志着苹果从库克时代向特努斯时代的过渡。报道称，特努斯在致员工的信中表示&quot;对即将推出的一系列重磅新品充满期待&quot;，并称下周将迎来&quot;一场堪称非凡的发布盛会&quot;。</p>
-<h3>特斯拉 Cybercab 遭美国联邦安全监管审查</h3>
+<p><strong>简要解读：</strong> 此次发布会不仅是新品展示，也是市场观察新管理层产品判断与执行节奏的第一个窗口。若新形态产品能兼顾体验和量产，苹果可能打开新的高端换机需求；若供应链爬坡缓慢，密集的产品路线未必能快速转化为增长。</p>
+<h3>03 / 特斯拉 Cybercab 遭美国联邦安全监管审查</h3>
 <p>美国国家公路交通安全管理局（NHTSA）已对约 1000 辆特斯拉 Cybercab 展开审计，重点审查特斯拉申报联邦车辆安全标准合规时所依据的流程和技术数据。由于 Cybercab 取消了方向盘、制动踏板等传统手动控制装置，其设计与现行安全标准存在明显差异。特斯拉本周已在得克萨斯州奥斯汀启动少量 Cybercab 商业化部署。<a href="https://wallstreetcn.com/articles/3781098">华尔街见闻</a></p>
-<p><strong>为什么值得关注：</strong> 监管介入正值特斯拉扩大 Robotaxi 业务的关键阶段。若合规认证受到质疑，后续车辆投放和运营区域扩张节奏可能受到影响。根据得州官方记录，截至上周五上午，特斯拉在该州共登记 420 辆自动驾驶车辆，其中 Cybercab 为 45 辆。</p>
+<p><strong>简要解读：</strong> 监管介入表明 Cybercab 已从技术展示进入合规证据与规模运营的双重检验。若审计认可其安全与申报流程，低成本车型可能获得更快扩张空间；若出现整改要求，车辆投放和运营区域扩张节奏可能受到影响。</p>
 <hr />
 <h2>分类阅读</h2>
 <h3>财经与市场</h3>
@@ -92,64 +134,7 @@
 </li>
 </ol>
 <hr />
-<h2>数据统计</h2>
-<table>
-<thead>
-<tr>
-<th>指标</th>
-<th>数据</th>
-<th>来源</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>美国 8 月非农新增就业</td>
-<td>16.2 万人（预期 5.5 万）</td>
-<td><a href="https://wallstreetcn.com/articles/3781105">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>美国 8 月失业率</td>
-<td>4.1%（维持不变）</td>
-<td><a href="https://wallstreetcn.com/articles/3781105">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>港交所前 8 月 IPO 集资额</td>
-<td>3424 亿港元（同比 +153%）</td>
-<td><a href="https://36kr.com/newsflashes/3969069105705225?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>全球亿万富翁总财富（2025 年）</td>
-<td>15.1 万亿美元（同比 +12.8%）</td>
-<td><a href="https://36kr.com/newsflashes/3969070463906051?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>全球智能手机零售价格涨幅（2026 年以来）</td>
-<td>平均 +15%</td>
-<td><a href="https://wallstreetcn.com/articles/3781097">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>Robinhood 链单日 DEX 交易量</td>
-<td>18.9 亿美元（历史新高）</td>
-<td><a href="https://wallstreetcn.com/member/articles/3781101">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>深交所本周自律监管措施</td>
-<td>95 起</td>
-<td><a href="https://36kr.com/newsflashes/3969087274283272?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>上交所本周自律监管措施</td>
-<td>57 起</td>
-<td><a href="https://36kr.com/newsflashes/3968927959937286?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>市场监管总局上半年审结经营者集中案件</td>
-<td>298 起</td>
-<td><a href="https://36kr.com/newsflashes/3969022579601669?f=rss">36氪</a></td>
-</tr>
-</tbody>
-</table>
-<hr />
 <p><strong>编辑说明：</strong> 本期日报基于 2026 年 9 月 3 日至 4 日收集的 RSS 条目整理。部分条目（如苹果新品预测、Robinhood 链数据）来自单一来源且包含前瞻性信息，相关数据未经独立验证，请读者注意甄别。涉及公司公告的信息以官方披露为准。</p>
+</article></main>
 </body>
 </html>

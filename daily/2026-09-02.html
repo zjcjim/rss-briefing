@@ -3,38 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>中文新闻日报（2026年9月1日—9月2日）</title>
-  <link rel="alternate" type="application/rss+xml" title="RSS 新闻简报" href="https://zjcjim.github.io/rss-weekreport/daily/feed.xml">
+  <title>新闻日报-2026-09-01</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS 新闻简报" href="https://zjcjim.github.io/rss-briefing/daily/feed.xml">
   <style>
-    body { max-width: 760px; margin: 2rem auto; padding: 0 1rem; color: #202124; font: 17px/1.75 system-ui, sans-serif; }
-    h1, h2, h3 { line-height: 1.3; }
-    a { color: #0969da; }
-    blockquote { border-left: 4px solid #d0d7de; margin-left: 0; padding-left: 1rem; color: #59636e; }
-    table { border-collapse: collapse; display: block; max-width: 100%; overflow-x: auto; }
-    th, td { border: 1px solid #d0d7de; padding: .5rem .75rem; text-align: left; vertical-align: top; }
-    th { background: #f6f8fa; }
+    :root { color-scheme: light dark; --paper: #fffdf8; --canvas: #f1eee6; --ink: #17202b; --muted: #68717c; --line: #d9d4c8; --accent: #174a69; --warm: #b84a32; --soft: #edf3f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--canvas); font: 17px/1.78 ui-serif, "Songti SC", "Noto Serif CJK SC", Georgia, serif; }
+    .site-header { max-width: 920px; margin: 0 auto; padding: 2rem clamp(1.25rem, 5vw, 4.5rem) 1rem; display: flex; align-items: end; justify-content: space-between; border-bottom: 1px solid var(--line); }
+    .brand { color: var(--ink); text-decoration: none; font: 800 1.05rem/1.1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .12em; }
+    .brand small { display: block; margin-top: .45rem; color: var(--muted); font-size: .7rem; font-weight: 650; letter-spacing: .18em; }
+    .subscribe { color: var(--accent); font: 700 .78rem/1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+    main { max-width: 920px; margin: 0 auto 4rem; padding: clamp(2rem, 6vw, 5rem) clamp(1.25rem, 8vw, 6rem); background: var(--paper); box-shadow: 0 24px 70px rgb(48 43 32 / .08); }
+    article { max-width: 720px; margin: auto; }
+    h1, h2, h3 { color: var(--ink); font-family: ui-sans-serif, system-ui, sans-serif; }
+    h1 { max-width: 18ch; margin: 0 0 3.5rem; font-size: clamp(2.25rem, 6vw, 4.25rem); line-height: 1.08; letter-spacing: -.045em; }
+    h1::after { content: ""; display: block; width: 3.5rem; height: .32rem; margin-top: 1.5rem; background: var(--warm); }
+    h2 { margin: 3.8rem 0 1.4rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.25; letter-spacing: -.025em; }
+    h2::before { content: ""; display: inline-block; width: .55rem; height: .55rem; margin: 0 .65rem .14rem 0; background: var(--warm); }
+    h3 { margin: 2.3rem 0 .8rem; color: var(--accent); font-size: 1.2rem; line-height: 1.45; letter-spacing: -.015em; }
+    p { margin: 0 0 1.15rem; }
+    article > h2:first-of-type + p { margin: 0 0 2rem; padding: 1.35rem 1.5rem; border-left: 4px solid var(--accent); background: var(--soft); font-size: 1.06rem; line-height: 1.8; }
+    article p:has(> strong:first-child) { padding: .9rem 1rem; border-left: 3px solid var(--warm); background: color-mix(in srgb, var(--warm) 6%, var(--paper)); color: var(--muted); }
+    a { color: var(--accent); text-decoration-thickness: .08em; text-underline-offset: .18em; }
+    a:hover { color: var(--warm); }
+    strong { color: #111820; }
+    blockquote { margin: 1.5rem 0; padding: .9rem 1.2rem; border-left: 4px solid var(--warm); background: color-mix(in srgb, var(--warm) 7%, var(--paper)); color: var(--muted); }
+    blockquote p:last-child { margin-bottom: 0; }
+    ul, ol { padding-left: 1.35rem; }
+    li { margin: .65rem 0; padding-left: .2rem; }
+    hr { height: 1px; margin: 3.5rem 0; border: 0; background: var(--line); }
+    table { width: 100%; margin: 1.5rem 0; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: .55rem; overflow: hidden; font: .9rem/1.55 ui-sans-serif, system-ui, sans-serif; }
+    th, td { padding: .75rem .85rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th:last-child, td:last-child { border-right: 0; }
+    tr:last-child td { border-bottom: 0; }
+    th { background: var(--soft); font-weight: 750; }
+    tbody tr:nth-child(even) { background: color-mix(in srgb, var(--canvas) 55%, transparent); }
+    @media (max-width: 680px) {
+      .site-header { padding-top: 1.25rem; }
+      main { margin-bottom: 0; box-shadow: none; }
+      h1 { margin-bottom: 2.75rem; }
+      table { display: block; max-width: 100%; overflow-x: auto; white-space: nowrap; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #171a1d; --canvas: #101214; --ink: #edf0f2; --muted: #aeb6bd; --line: #353b40; --accent: #79b9d6; --warm: #e47a60; --soft: #202a2f; }
+      strong { color: #f6f7f8; }
+      main { box-shadow: none; }
+    }
+    @media print { body, main { background: white; box-shadow: none; } .site-header { display: none; } main { padding: 0; } a { color: inherit; } }
   </style>
 </head>
-<body><h1>中文新闻日报（2026年9月1日—9月2日）</h1>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">BRIEFING<small>RSS 中文新闻简报</small></a>
+    <a class="subscribe" href="https://zjcjim.github.io/rss-briefing/daily/feed.xml">RSS 订阅 ↗</a>
+  </header>
+  <main><article><h1>新闻日报-2026-09-01</h1>
 <h2>今日概览</h2>
 <p>本期日报覆盖2026年9月1日至2日的财经要闻。<strong>蔚来汽车实现连续第三个季度盈利</strong>，成为车市逆势中的亮点；<strong>希音（SHEIN）在港交所挂牌上市</strong>，成为2026年港股规模最大的时尚品牌IPO；<strong>美国8月ADP就业数据低于预期</strong>，美联储官员表态偏中性审慎；<strong>SK海力士考虑深化与铠侠合作并在日本建厂</strong>，全球NAND存储格局或生变。此外，AI芯片自主设计、SaaS板块复苏、美股9月流动性风险等话题亦受关注。</p>
 <hr />
 <h2>重点新闻</h2>
 <h3>蔚来连续三季度盈利：从亏损千亿到自我造血</h3>
 <p>蔚来于9月1日披露最新季报，实现利润2610万元（non-GAAP标准），自去年第四季度以来已<strong>连续3个季度盈利</strong>。此前蔚来公开可查的累计亏损约1000亿元，去年年中单季度仍亏损50亿元。报道称，蔚来创始人李斌曾表示“估计只有不到1%的人相信蔚来能盈利”。蔚来通过重塑产品理念、严控成本、狠抓供应链实现逆转，月销量一度逼近5万辆，大型SUV产品ES8在一些月份成为40万元以上新能源车销冠。今年车市遇冷背景下，蔚来仍维持约3万台月销量。</p>
-<p><strong>关注理由</strong>：蔚来从“融资续命”转向“向内变革”并实现盈利，对观察造车新势力商业模式可持续性具有指标意义。</p>
+<p><strong>简要解读</strong>：这不只是一次利润数字改善，更意味着蔚来的竞争重心正从扩大规模转向产品、成本与供应链的经营质量。若后续销量和毛利表现能继续支撑盈利，公司的融资压力可能缓解，也会促使造车新势力更快从“销量竞赛”转向“效率竞赛”；但这仍取决于需求与成本纪律能否持续。</p>
 <p><a href="https://36kr.com/p/3966195340205313?f=rss">来源：36氪</a></p>
 <h3>希音（SHEIN）港交所挂牌上市</h3>
 <p>9月1日上午9时，希音在港交所挂牌上市，成为<strong>2026年港股规模最大的时尚品牌IPO</strong>。本次全球发售募集资金净额约132.14亿港元，基石投资者包括博裕、Tiger Global、腾讯、景林等。2025年希音服务全球160个市场约2.73亿活跃顾客，净收入418.47亿美元，净利润20.64亿美元。募资用途方面，约40%用于提升技术，约40%用于品牌与全球布局。</p>
-<p><strong>关注理由</strong>：希音以“大规模自动化小单快返”模式著称，2025年库存周转天数仅36天，显著低于ZARA母公司Inditex（71天）和优衣库母公司迅销（114天）。其上市后的技术投入与全球化策略值得持续跟踪。</p>
+<p><strong>简要解读</strong>：希音上市的核心内涵是把“小单快返”的供应链效率转化为资本市场可衡量的增长能力。其库存周转优势显示，时尚行业的竞争可能进一步从品牌和渠道延伸到数字化供应链。若募资后的技术与全球布局能继续提高效率，可能抬高同行的库存管理标准；未来表现则取决于扩张速度与盈利质量能否平衡。</p>
 <p><a href="https://36kr.com/p/3966060125625605?f=rss">来源：36氪</a></p>
 <h3>美国8月ADP就业数据低于预期，美联储官员表态审慎</h3>
 <p>美国8月ADP就业人数增加<strong>3.8万人</strong>，低于市场预期的4.7万—4.8万人，前值为4.4万人。纽约联储主席威廉姆斯表示，近期通胀数据令人鼓舞，通胀呈缓慢下行趋势，利率处于“良好水平”，支持7月FOMC维持利率不变的决定，并强调需积累更多数据后再作决策。他同时指出，关税及中东局势引发的能源价格上涨仍是通胀最主要驱动因素。</p>
-<p><strong>关注理由</strong>：ADP数据被视为非农就业的前瞻指标，数据疲软可能影响美联储9月议息会议决策。威廉姆斯作为美联储“三把手”，其表态为市场判断利率路径提供重要参考。</p>
+<p><strong>简要解读</strong>：就业降温与通胀风险并存，说明美联储面临的不是单向选择，而是在经济支持与价格稳定之间寻找平衡。ADP疲软可能增加市场对宽松政策的预期，但关税和能源价格压力又会限制政策空间。未来利率路径可能因单次数据发布而更易波动，最终方向仍取决于后续就业与通胀数据能否形成一致信号。</p>
 <p><a href="https://36kr.com/newsflashes/3966236225346822?f=rss">来源：36氪</a> | <a href="https://wallstreetcn.com/articles/3780925">来源：华尔街见闻</a> | <a href="https://wallstreetcn.com/articles/3780923">来源：华尔街见闻</a></p>
 <h3>SK海力士拟深化与铠侠合作，考虑在日本建NAND芯片厂</h3>
 <p>SK集团会长崔泰源本周访问东京期间表示，与铠侠联合生产NAND闪存是“选项之一”，日本在风险管控和文化契合方面“极具吸引力”，SK集团已收到多个日本地方政府的招商提案。若双方深化合作落地，SK海力士与铠侠的NAND市场份额合计（36%）将超过三星电子（25%）。崔泰源同时暗示，若无法建立更深层次合作，SK不排除退出对铠侠现有投资。</p>
-<p><strong>关注理由</strong>：全球NAND存储市场竞争格局可能迎来重大变化。SK海力士在HBM领域积累的利润优势能否转化为NAND市场份额的突破，值得关注。</p>
+<p><strong>简要解读</strong>：这一合作选项反映出，存储厂商正试图通过产能与技术协同改变NAND领域的竞争位置，同时增加供应链的地域选择。若联合生产落地，双方合计市场份额可能增强其议价与投资能力，并促使其他厂商调整产能或合作策略；但实际影响仍取决于合作深度、建厂进度与市场需求。</p>
 <p><a href="https://wallstreetcn.com/articles/3780919">来源：华尔街见闻</a></p>
 <hr />
 <h2>分类阅读</h2>
@@ -102,104 +144,7 @@
 <li><strong>《两种小金属卡了AI脖子，中国供应链占主导》</strong>（华尔街见闻）——分析铒和钇在AI数据中心光网络与电力系统中的关键作用及中国的主导地位。<a href="https://wallstreetcn.com/articles/3780921">阅读全文</a></li>
 </ol>
 <hr />
-<h2>数据统计</h2>
-<table>
-<thead>
-<tr>
-<th>指标</th>
-<th>数据</th>
-<th>来源</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>蔚来最新季度利润（non-GAAP）</td>
-<td>2610万元</td>
-<td><a href="https://36kr.com/p/3966195340205313?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>希音IPO募资净额</td>
-<td>约132.14亿港元</td>
-<td><a href="https://36kr.com/p/3966060125625605?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>希音2025年净收入</td>
-<td>418.47亿美元</td>
-<td><a href="https://36kr.com/p/3966060125625605?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>希音2025年净利润</td>
-<td>20.64亿美元</td>
-<td><a href="https://36kr.com/p/3966060125625605?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>美国8月ADP就业人数</td>
-<td>+3.8万人（预期4.7万—4.8万）</td>
-<td><a href="https://36kr.com/newsflashes/3966236225346822?f=rss">36氪</a> / <a href="https://wallstreetcn.com/articles/3780923">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>8月A股新开户数</td>
-<td>239.73万户</td>
-<td><a href="https://36kr.com/newsflashes/3966169579298056?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>8月新能源乘用车批发销量预估</td>
-<td>151万辆（同比+16%）</td>
-<td><a href="https://36kr.com/newsflashes/3966117327756800?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>燧原科技IPO发行价</td>
-<td>142.18元/股</td>
-<td><a href="https://36kr.com/newsflashes/3966162115501576?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>燧原科技网上最终中签率</td>
-<td>0.02455315%</td>
-<td><a href="https://36kr.com/newsflashes/3966162115501576?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>上证指数收盘</td>
-<td>3941.39点（-0.97%）</td>
-<td><a href="https://36kr.com/p/3966082304089352?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>深证成指收盘</td>
-<td>13611.55点（-1.88%）</td>
-<td><a href="https://36kr.com/p/3966082304089352?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>创业板指收盘</td>
-<td>3312.24点（-2.39%）</td>
-<td><a href="https://36kr.com/p/3966082304089352?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>中际旭创回购计划规模</td>
-<td>40亿—80亿元</td>
-<td><a href="https://wallstreetcn.com/articles/3780924">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>中际旭创首次回购金额</td>
-<td>3.18亿元（37.41万股）</td>
-<td><a href="https://wallstreetcn.com/articles/3780924">华尔街见闻</a></td>
-</tr>
-<tr>
-<td>雪佛龙委内瑞拉合资企业五年投资计划</td>
-<td>超70亿美元</td>
-<td><a href="https://36kr.com/newsflashes/3966118080273668?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>飞鹿股份定增募资区间</td>
-<td>3.5亿—4.5亿元</td>
-<td><a href="https://36kr.com/newsflashes/3966249585860102?f=rss">36氪</a></td>
-</tr>
-<tr>
-<td>广东鸿图镁合金压铸项目投资</td>
-<td>2.74亿元</td>
-<td><a href="https://36kr.com/newsflashes/3966207043083784?f=rss">36氪</a></td>
-</tr>
-</tbody>
-</table>
-<hr />
 <p><em>本日报基于2026年9月1日至2日RSS条目整理，所有事实均来源于所附链接，未补充来源外信息。部分条目因原始内容截断，信息可能不完整，已作相应标注。</em></p>
+</article></main>
 </body>
 </html>
