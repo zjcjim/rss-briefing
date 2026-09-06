@@ -7,13 +7,28 @@
 main{max-width:920px;margin:auto}header{padding:clamp(2rem,7vw,5rem) 0 3rem;border-bottom:1px solid var(--line)}.eyebrow{color:var(--warm);font-size:.75rem;font-weight:800;letter-spacing:.18em}
 h1{max-width:12ch;margin:.7rem 0 1rem;font-size:clamp(2.7rem,8vw,5.8rem);line-height:.98;letter-spacing:-.055em}header p{max-width:36rem;color:var(--muted);font:1.08rem/1.7 ui-serif,"Songti SC",serif}
 nav{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.6rem}nav a{padding:.6rem .85rem;border:1px solid var(--line);border-radius:999px;color:var(--accent);font-size:.82rem;font-weight:700;text-decoration:none}nav a:hover{border-color:var(--accent);background:var(--paper)}
-h2{margin:3rem 0 1rem;font-size:1rem;letter-spacing:.12em;text-transform:uppercase}ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:1rem;margin:0;padding:0;list-style:none}li{min-height:9rem;padding:1.25rem;border:1px solid var(--line);border-radius:.8rem;background:var(--paper);box-shadow:0 12px 32px rgb(48 43 32/.05)}li span{display:block;margin-bottom:.7rem;color:var(--warm);font-size:.7rem;font-weight:800;letter-spacing:.12em}li a{color:var(--ink);font-size:1.1rem;font-weight:750;line-height:1.45;text-decoration:none}li a:hover{color:var(--accent)}
+h2{margin:3rem 0 1rem;font-size:1rem;letter-spacing:.12em;text-transform:uppercase}.period-switch{position:relative;display:grid;grid-template-columns:1fr 1fr;width:min(100%,16rem);margin-bottom:1.25rem;padding:.25rem;border:1px solid var(--line);border-radius:999px;background:var(--paper)}.period-switch::before{content:"";position:absolute;top:.25rem;bottom:.25rem;left:.25rem;width:calc(50% - .25rem);border-radius:999px;background:var(--accent);transition:transform .25s ease}.period-switch.weekly::before{transform:translateX(100%)}.period-switch button{position:relative;z-index:1;padding:.62rem 1rem;border:0;background:transparent;color:var(--muted);font:700 .82rem/1 ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:color .25s ease}.period-switch button[aria-pressed="true"]{color:var(--paper)}.period-panel[hidden]{display:none}ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:1rem;margin:0;padding:0;list-style:none}li{min-height:9rem;padding:1.25rem;border:1px solid var(--line);border-radius:.8rem;background:var(--paper);box-shadow:0 12px 32px rgb(48 43 32/.05)}li span{display:block;margin-bottom:.7rem;color:var(--warm);font-size:.7rem;font-weight:800;letter-spacing:.12em}li a{color:var(--ink);font-size:1.1rem;font-weight:750;line-height:1.45;text-decoration:none}li a:hover{color:var(--accent)}
+@media(prefers-reduced-motion:reduce){.period-switch::before,.period-switch button{transition:none}}
 @media(prefers-color-scheme:dark){:root{--paper:#171a1d;--canvas:#101214;--ink:#edf0f2;--muted:#aeb6bd;--line:#353b40;--accent:#79b9d6;--warm:#e47a60}li{box-shadow:none}}
 </style></head><body><main><header><div class="eyebrow">PERSONAL NEWS DESK</div><h1>我的 RSS 新闻简报</h1>
 <p>从信息流中挑出真正值得注意的事。按日与按周整理，保留原文链接与事实边界。</p>
 <nav><a href="https://zjcjim.github.io/rss-briefing/daily/feed.xml">日报 RSS</a><a href="https://zjcjim.github.io/rss-briefing/weekly/feed.xml">周报 RSS</a><a href="https://zjcjim.github.io/rss-briefing/feed.xml">全部简报 RSS</a></nav></header>
-<section><h2>最新刊期</h2><ul><li><span>日报</span><a href="https://zjcjim.github.io/rss-briefing/daily/2026-09-06.html">新闻日报-2026-09-05</a></li>
-<li><span>周报</span><a href="https://zjcjim.github.io/rss-briefing/weekly/2026-W36.html">新闻周报-2026-W36</a></li>
+<section class="editions"><h2>最新刊期</h2><div class="period-switch" role="group" aria-label="简报类型">
+<button type="button" aria-pressed="true" aria-controls="daily-panel" data-period="daily">日报</button>
+<button type="button" aria-pressed="false" aria-controls="weekly-panel" data-period="weekly">周报</button></div>
+<div class="period-panel" id="daily-panel"><ul><li><span>日报</span><a href="https://zjcjim.github.io/rss-briefing/daily/2026-09-06.html">新闻日报-2026-09-06</a></li>
 <li><span>日报</span><a href="https://zjcjim.github.io/rss-briefing/daily/2026-09-05.html">新闻日报-2026-09-04</a></li>
 <li><span>日报</span><a href="https://zjcjim.github.io/rss-briefing/daily/2026-09-04.html">新闻日报-2026-09-03</a></li>
-<li><span>日报</span><a href="https://zjcjim.github.io/rss-briefing/daily/2026-09-02.html">新闻日报-2026-09-01</a></li></ul></section></main></body></html>
+<li><span>日报</span><a href="https://zjcjim.github.io/rss-briefing/daily/2026-09-02.html">新闻日报-2026-09-01</a></li></ul></div>
+<div class="period-panel" id="weekly-panel" hidden><ul><li><span>周报</span><a href="https://zjcjim.github.io/rss-briefing/weekly/2026-W36.html">新闻周报-2026-W36</a></li></ul></div></section></main>
+<script>
+const periodSwitch=document.querySelector('.period-switch');
+const periodButtons=periodSwitch.querySelectorAll('button');
+const periodPanels=document.querySelectorAll('.period-panel');
+periodButtons.forEach(button=>button.addEventListener('click',()=>{
+  const period=button.dataset.period;
+  periodSwitch.classList.toggle('weekly',period==='weekly');
+  periodButtons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+  periodPanels.forEach(panel=>panel.hidden=panel.id!==`${period}-panel`);
+}));
+</script></body></html>
