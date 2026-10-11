@@ -1,5 +1,142 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>我的 RSS 新闻周报</title><link>https://zjcjim.github.io/rss-briefing</link><description>AI 生成的中文新闻周报</description><language>zh-CN</language><lastBuildDate>Sun, 04 Oct 2026 19:24:23 +0800</lastBuildDate><atom:link href="https://zjcjim.github.io/rss-briefing/weekly/feed.xml" rel="self" type="application/rss+xml" /><item><title>新闻周报-2026-W40</title><link>https://zjcjim.github.io/rss-briefing/weekly/2026-W40.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/weekly/2026-W40.html</guid><pubDate>Sun, 04 Oct 2026 19:24:23 +0800</pubDate><category>周报</category><description>&lt;h2&gt;本周概览&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>我的 RSS 新闻周报</title><link>https://zjcjim.github.io/rss-briefing</link><description>AI 生成的中文新闻周报</description><language>zh-CN</language><lastBuildDate>Sun, 11 Oct 2026 19:23:55 +0800</lastBuildDate><atom:link href="https://zjcjim.github.io/rss-briefing/weekly/feed.xml" rel="self" type="application/rss+xml" /><item><title>新闻周报-2026-W41</title><link>https://zjcjim.github.io/rss-briefing/weekly/2026-W41.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/weekly/2026-W41.html</guid><pubDate>Sun, 11 Oct 2026 19:23:55 +0800</pubDate><category>周报</category><description>&lt;h2&gt;本周概览&lt;/h2&gt;
+&lt;p&gt;本周全球市场与地缘政治呈现剧烈震荡。宏观层面，AI巨额发债推高美债收益率至多年高位，叠加法国财政危机加剧，引发股债双杀与美元走强。科技领域，英伟达表外承诺激增、OpenAI营收预期差及内存短缺重塑半导体利润格局。地缘方面，中东局势急剧恶化，胡塞武装袭击沙特机场致油价飙升；俄乌冲突因特朗普施压换帅陷入僵局；西班牙提前大选凸显欧洲社会撕裂。&lt;/p&gt;
+&lt;h2&gt;最值得关注&lt;/h2&gt;
+&lt;h3&gt;01 / AI债务狂潮挤压美债：SpaceX等巨头一周融资超1500亿美元，长端收益率逼近6%&lt;/h3&gt;
+&lt;p&gt;AI基础设施建设的资金需求正以前所未有的速度涌入债券市场。SpaceX、博通、甲骨文在不到一周内合计寻求逾1500亿美元融资，用于购买英伟达芯片及建设数据中心。这一“资本争夺战”导致公开债市趋于饱和，迫使交易转向私募信贷和SPV。受此挤出效应影响，美国10年期国债收益率重回5.31%，30年期徘徊在5.70%附近，Pimco警告若对冲基金止损抛售，10年期收益率可能突破6%。同时，甲骨文CDS利差创历史新高，隐含违约概率超20%，显示市场对AI借款方信用风险的重新定价。
+&lt;a href="https://wallstreetcn.com/articles/3783234"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://www.cnbc.com/2026/10/09/jpmorgan-sees-once-in-a-generation-opportunity-in-fixed-income-space.html"&gt;CNBC Finance&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+AI巨头的大规模举债正在改变全球利率结构，若算力投资回报率不及预期，则可能引发信用市场的连锁反应。投资者需警惕“做多AI、做空其他需要贷款者”的市场分化逻辑，关注高收益债利差扩大对实体经济的传导压力。&lt;/p&gt;
+&lt;h3&gt;02 / 英伟达表外担保飙升至5300亿美元，SemiAnalysis预测未来或破万亿&lt;/h3&gt;
+&lt;p&gt;据英伟达最新10-Q季报披露，其表外担保总额已达5300亿美元，较上一季度大幅跃升超过180%。这些义务涵盖供应承诺、数据中心兜底协议及云服务租约等。研究机构SemiAnalysis指出，随着盈利能力增强，英伟达表外义务未来可能突破1万亿美元。然而，若AI基础设施投资放缓，英伟达能否同时履行表内外承诺并维持财务安全边际，成为市场核心风险。英伟达的角色已从芯片供应商延伸至数据中心生态的信用背书方。
+&lt;a href="https://wallstreetcn.com/articles/3783383"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+英伟达通过提供信用支持深度绑定客户，虽短期巩固了生态地位，但长期看增加了资产负债表外的隐性杠杆。若行业出现周期性下行，这种“兜底”模式可能转化为巨大的流动性压力，评估其真实财务敞口时不能仅看传统报表。&lt;/p&gt;
+&lt;h3&gt;03 / 美光单季净利超越苹果，内存短缺赋予供应商绝对定价权&lt;/h3&gt;
+&lt;p&gt;截至9月30日的第四财季，美光科技录得净利润377亿美元，超过苹果同期的298亿美元。内存短缺使美光掌握强大定价权，CEO直言“无法满足客户需求”，下季度营收指引高达615亿美元。相反，苹果毛利率因内存成本持续承压，从49.3%降至46.5%指引区间。分析师指出，这是科技行业利润版图的重分配，“苹果需要芯片，美光有芯片，美光定价格”。此外，三星明年存储产量的80%已被长协锁定，进一步印证供给紧张。
+&lt;a href="https://wallstreetcn.com/articles/3783377"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783361"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+上游硬件供应商在AI周期中获得了前所未有的议价能力，下游终端厂商面临成本刚性上升。若内存供需失衡持续，则消费电子厂商的利润率将进一步受挤压，甚至可能通过提价将成本转嫁给消费者，抑制整体市场需求。&lt;/p&gt;
+&lt;h3&gt;04 / 法国财政危机升级：法德利差扩至150基点，欧央行暂不救市&lt;/h3&gt;
+&lt;p&gt;法国公共财政状况恶化引发债市动荡，10年期法德国债利差一度扩大至约150个基点，处于历史罕见水平。法国10年期国债收益率逼近5%，借贷成本高于希腊和意大利。IMF总裁警告发达经济体已成为债务问题的“严重违规者”。尽管市场担忧重演欧债危机，但欧洲央行管委会成员明确表示，解决法国财政困境非其职责，法国需自救。花旗分析认为，法国风险可能制约欧央行加息步伐，欧元兑美元或跌破1.10。
+&lt;a href="https://wallstreetcn.com/articles/3783286"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783323"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://www.france24.com/en/europe/20261005-euro-falls-to-17-month-low-against-the-usd-on-french-debt-concerns"&gt;France 24 English&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+法国作为欧元区第二大经济体，其财政不可持续性动摇了欧元区的稳定基石。若政治碎片化阻碍财政整顿，则主权债风险溢价将持续攀升，并可能通过银行体系向整个欧元区蔓延，引发新一轮系统性金融压力。&lt;/p&gt;
+&lt;h3&gt;05 / 胡塞武装袭击沙特利雅得机场致12死309伤，特朗普称美国“可能”介入&lt;/h3&gt;
+&lt;p&gt;也门胡塞武装连续袭击沙特首都利雅得的哈立德国王国际机场，造成至少12人死亡、309人受伤，机场暂停运营。沙特主导联军誓言坚决回应，美国总统特朗普表示美国“可能”加入针对胡塞武装的打击行动。此次袭击发生在美伊冲突背景下，霍尔木兹海峡航运风险加剧，油轮运费创六十年新高。高盛模型测算显示，油价中的风险溢价逼近历史最高水平，布伦特原油维持在每桶100美元上方。
+&lt;a href="https://wallstreetcn.com/articles/3783345"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://www.france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783356"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+中东战火从代理人冲突向海湾国家本土蔓延，直接威胁全球能源供应链。若美国直接军事介入，则地区局势可能进一步失控，导致石油供应中断常态化，进而推高全球通胀并冲击金融市场稳定性。&lt;/p&gt;
+&lt;h3&gt;06 / OpenAI年化收入被爆低于预期，引发AI板块估值修正&lt;/h3&gt;
+&lt;p&gt;媒体披露OpenAI截至9月底的年化收入运行率接近500亿美元，较此前流传的700亿美元少了近三成。消息传出后，美股AI硬件板块普遍承压，英伟达、博通、美光股价下跌。尽管OpenAI澄清年底目标仍为700亿美元，但市场开始质疑AI应用层的变现能力是否足以支撑庞大的基础设施投入。德意志银行报告指出，市场低估的风险并非债市，而是AI生态本身出现安全事故或营收不及预期。
+&lt;a href="https://wallstreetcn.com/articles/3783258"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783366"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+AI叙事正从“信仰充值”转向“业绩验证”。若头部大模型公司的收入增速无法匹配其资本开支，则整个AI产业链的估值逻辑将面临重构，依赖AI故事的高估值资产可能出现剧烈回调。&lt;/p&gt;
+&lt;h3&gt;07 / 特朗普施压泽连斯基辞职，乌克兰战争外交博弈陷入僵局&lt;/h3&gt;
+&lt;p&gt;美国总统特朗普公开呼吁乌克兰更换总统，批评泽连斯基攻击俄罗斯炼油厂，并要求其停止此类行动以达成柴油协议。泽连斯基回应称，若莫斯科停止攻击乌克兰能源设施，基辅愿停止打击俄炼油厂，强调去升级必须相互且有保证。与此同时，俄罗斯对扎波罗热等地的空袭造成平民伤亡，包括儿童。美乌欧三方在迈阿密举行会谈，试图寻找结束战争的方案，但分歧依然巨大。
+&lt;a href="https://www.france24.com/en/europe/20261011-trump-says-ukraine-needs-new-president-who-will-agree-to-end-war"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"&gt;France 24 English&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+美国政策风向的转变削弱了乌克兰的外交筹码，若美方继续施压换人，则可能导致基辅政权内部动荡，进而影响战场态势。俄罗斯可能利用西方联盟内部的裂痕，在谈判桌上争取更有利的停火条件。&lt;/p&gt;
+&lt;h3&gt;08 / 陶哲轩博客引爆数学界辩论：AI攻克菲尔兹奖级难题，人类学者价值受挑战&lt;/h3&gt;
+&lt;p&gt;菲尔兹奖得主陶哲轩的博客评论区聚集了大量顶尖数学家，讨论AI（如Claude）证明渗流理论连续相变猜想的影响。该猜想困扰学界70年，被视为概率论“圣杯”。AI的证明引发了关于科研范式颠覆的激烈争论：人类是否应交出真理推导的主导权？部分学者感到失落，认为过程的神圣性被算法平推；另一部分则认为AI是新的探索工具。这一事件标志着AI在纯数学领域的突破已触及人类智力尊严的核心。
+&lt;a href="https://wallstreetcn.com/articles/3783375"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783107"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+AI在形式化证明上的突破表明，其在逻辑推理领域的潜力远超预期。若AI能持续解决高阶数学问题，则基础科学研究的速度将大幅提升，但也可能加速人类专家在某些领域的边缘化，引发学术伦理和教育体系的深层变革。&lt;/p&gt;
+&lt;h3&gt;09 / 西班牙住房危机引发全国抗议，首相桑切斯宣布提前大选&lt;/h3&gt;
+&lt;p&gt;西班牙87岁老人Maricarmen Abascal因被驱逐出住所而死亡，引发全国范围内的住房抗议浪潮，数十万人走上街头。面对巨大的社会压力和议会立法受阻，首相桑切斯宣布将于11月29日举行提前大选。反对党领袖费霍奥也启动竞选活动。住房可负担性成为选举核心议题，左翼政府试图通过选举巩固授权，右翼则借机抨击现行政策失败。
+&lt;a href="https://www.france24.com/en/video/20261011-spain-s%C3%A1nchez-and-feij%C3%B3o-launch-campaigns"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.npr.org/2026/10/05/nx-s1-5991404/spain-snap-elections"&gt;NPR World&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+欧洲多国面临类似的住房与社会福利矛盾，西班牙提前大选反映了执政党对社会不满情绪的焦虑。若右翼势力在大选中获胜，则欧盟内部的政治光谱可能进一步右移，影响移民、环保及经济政策的协调一致性。&lt;/p&gt;
+&lt;h3&gt;10 / 印度爆发大规模青年抗议，警方拘留“蟑螂运动”领导人&lt;/h3&gt;
+&lt;p&gt;印度德里等地爆发针对选举委员会修改选民名册的抗议活动，数千名示威者被捕。讽刺性的“蟑螂运动”（Cockroach Janta Party）领导人被拘留，该组织要求选举专员辞职。抗议者指责莫迪政府操纵选举数据，民主制度受到侵蚀。尽管法院随后下令释放部分领导人，但紧张局势仍未缓解，反映出印度社会对政治透明度和公平性的深刻担忧。
+&lt;a href="https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief"&gt;NPR World&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+印度作为世界最大民主国家，其选举公正性争议不仅关乎国内政治稳定，也可能影响外资对其法治环境的信心。若政府持续强硬打压异见，则可能加剧社会分裂，并在国际舆论场上损害其软实力形象。&lt;/p&gt;
+&lt;h3&gt;11 / 中国四部门拟禁止隐藏式车门把手，强化汽车安全标准&lt;/h3&gt;
+&lt;p&gt;工信部等四部门发布征求意见稿，拟加强汽车产品创新设计和研发测试验证管理。草案明确提出禁止配备全隐藏式车门把手，并要求灯光、雨刮等关键驾驶安全功能在采用虚拟操纵件的同时，必须保留实体操纵件。此举旨在回应近期多起电动车事故引发的公众对过度电子化设计的安全担忧，推动汽车行业回归理性，重视基础安全冗余。
+&lt;a href="https://wallstreetcn.com/articles/3783341"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783364"&gt;人民日报&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+监管层对新能源汽车“炫技式”创新的纠偏，意味着行业竞争将从外观噱头转向底层安全与可靠性。车企需重新评估产品设计策略，增加实体按键可能带来成本上升，但有助于重建消费者对智能汽车的安全信任。&lt;/p&gt;
+&lt;h3&gt;12 / 软银孙正义拟向海湾投资者筹集1000亿美元加码AI&lt;/h3&gt;
+&lt;p&gt;软银创始人孙正义正寻求从阿联酋等海湾地区投资者募集高达1000亿美元资金，成立新基金以收购企业并利用AI改善运营。尽管软银近期面临OpenAI延期上市、股价回调超30%等压力，孙正义仍通过股权质押与高息发债等激进方式持续推进AI豪赌。此举延续了2017年愿景基金的融资模式，显示其对AI赛道的长期看好及资金链的脆弱平衡。
+&lt;a href="https://wallstreetcn.com/articles/3783251"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+软银的巨额融资计划再次将全球目光聚焦于AI资本的集中度风险。若海湾主权财富基金继续输血，则AI泡沫的持续时间可能被拉长；但若最终退出路径不畅，软银的高杠杆结构可能引发连锁债务危机。&lt;/p&gt;
+&lt;h3&gt;13 / 特斯拉欧洲将FSD更名为TAD，辅助驾驶合规边界待厘清&lt;/h3&gt;
+&lt;p&gt;特斯拉在德国、比利时和丹麦官网将原称“完全自动驾驶（监督版）”的功能改名为“Tesla Assisted Driving”（TAD）。尽管名称变更，但该功能并未因此获得在欧盟全境使用的许可。这反映了欧盟对自动驾驶技术严格的监管态度，以及特斯拉在推进FSD落地过程中面临的法律与认证障碍。更名可能是为了规避“完全自动驾驶”带来的误导责任，但实质技术能力的审批仍是瓶颈。
+&lt;a href="https://wallstreetcn.com/articles/3783327"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+特斯拉在欧洲的改名动作显示出监管压力下的妥协。若欧盟坚持保守的审批流程，则特斯拉FSD在全球第二大汽车市场的商业化进程将严重滞后，影响其软件订阅收入的增长预期。&lt;/p&gt;
+&lt;h3&gt;14 / 苹果iPhone 18 Pro订单削减15%-20%，折叠屏Duo前景存疑&lt;/h3&gt;
+&lt;p&gt;受涨价与高昂定价抑制需求影响，苹果公司被迫削减10月高端机型iPhone 18 Pro及Pro Max的组件订单15%至20%。首款折叠屏手机iPhone Duo售价高达1999美元，市场担忧其上市后也将面临类似命运。IDC预测2026年全球智能手机出货量将出现有史以来最大的同比降幅。尽管苹果凭借品牌优势有望扩大市场份额，但整体行业逆风显著。
+&lt;a href="https://wallstreetcn.com/articles/3783257"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+消费电子市场在高通胀环境下表现出明显的需求弹性。若苹果无法通过服务或其他业务抵消硬件销量下滑，则其营收增长引擎将熄火。折叠屏手机未能如期成为爆款，说明技术创新尚未有效转化为大众消费动力。&lt;/p&gt;
+&lt;h3&gt;15 / 韩国散户三季度“脱韩入美”，净买入美股超10万亿韩元&lt;/h3&gt;
+&lt;p&gt;数据显示，韩国投资者在今年三季度完成了一次方向鲜明的资金大迁移：净卖出KOSPI股票逾5.59万亿韩元，同期净买入美股约10.15万亿韩元。这与上半年“大举买入本土、相对冷淡美股”的格局形成180度逆转。韩国股市表现疲软、汇率波动及对美国科技股的追捧，驱动了散户资金的跨境流动。
+&lt;a href="https://wallstreetcn.com/articles/3783362"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+韩国散户的行为折射出全球资本向美国核心资产集中的趋势。若韩元持续贬值或本土产业竞争力下降，则资本外流可能加剧韩国金融市场的波动，并对本国企业的融资环境产生负面影响。&lt;/p&gt;
+&lt;h3&gt;16 / 谷歌与Constellation Energy签署史上最大核能协议，锁定3590兆瓦电力&lt;/h3&gt;
+&lt;p&gt;谷歌与美国最大核电运营商Constellation Energy达成迄今规模最大的科技能源合作协议，总计锁定3,590兆瓦电力供应，其中890兆瓦来自核电机组升级扩容。此举旨在满足AI数据中心日益增长的清洁能源需求。亚马逊此前也与Constellation签下类似协议。科技巨头抢购清洁电力的大幕正式开启，核电成为AI基建的关键配套。
+&lt;a href="https://wallstreetcn.com/articles/3783087"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783049"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+AI算力的扩张正倒逼能源结构转型，核电因其稳定性和低碳属性成为首选。若更多科技公司效仿，则全球核电产业链将迎来新一轮投资热潮，同时也可能加剧电力资源的区域竞争。&lt;/p&gt;
+&lt;h3&gt;17 / 英国前王子安德鲁起诉警方，要求撤销爱泼斯坦案搜查令&lt;/h3&gt;
+&lt;p&gt;英国前王子安德鲁（Mountbatten-Windsor）向法院提起诉讼，要求撤销导致其住所被搜查的令状，称其非法。此前警方在其与已故性犯罪者杰弗里·爱泼斯坦的关系调查中进行了搜查。安德鲁否认所有不当行为指控。此案凸显了爱泼斯坦丑闻在英国王室及相关精英阶层中的持续发酵，司法程序仍在进行中。
+&lt;a href="https://www.france24.com/en/europe/20261005-ex-prince-andrew-launches-bid-to-quash-epstein-affair-search-warrants"&gt;France 24 English&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+安德鲁的法律行动试图切断调查线索，但难以平息公众对权贵豁免权的质疑。若法院驳回其诉求，则可能揭开更多关于爱泼斯坦网络的内幕，进一步冲击英国政商界的公信力。&lt;/p&gt;
+&lt;h3&gt;18 / 日本实际工资八连涨，但破产潮与加息预期令央行两难&lt;/h3&gt;
+&lt;p&gt;日本8月实际现金收入同比增长1.5%，连续第八个月上涨，创下近十年最长连涨纪录。然而，拆解数据背后的支撑因素——政府补贴压低的通胀读数与即将落地的食品减税——显示复苏成色复杂。与此同时，日本企业破产数量上升，且日央行面临加息压力。如何在提振工资与防止经济过热之间取得平衡，成为央行政策制定的难点。
+&lt;a href="https://wallstreetcn.com/articles/3783105"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+日本走出通缩的迹象初现，但结构性弱点依然存在。若央行过快加息，则可能扼杀脆弱的工资-物价良性循环；若维持宽松，则日元贬值和输入性通胀风险将持续。政策路径的选择将决定日本经济能否实现真正的正常化。&lt;/p&gt;
+&lt;h3&gt;19 / 中国央行连续23个月增持黄金，外汇储备环比下降&lt;/h3&gt;
+&lt;p&gt;中国9月末黄金储备为7747万盎司，环比增加74万盎司，已连续第23个月增持黄金。同时，中国9月外汇储备为34002.5亿美元，环比下降1.1%。央行持续购金反映了对美元资产风险的防范及对储备多元化的追求。在全球地缘政治不确定性增加的背景下，黄金的战略配置价值凸显。
+&lt;a href="https://wallstreetcn.com/articles/3783099"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+官方购金行为强化了黄金的货币属性，支撑金价长期走势。若美联储降息预期推迟或地缘冲突加剧，则各国央行可能继续增加黄金储备，进一步收紧实物黄金供给。&lt;/p&gt;
+&lt;h3&gt;20 / 巴西大选首轮小博索纳罗意外领先卢拉，右翼强势回归&lt;/h3&gt;
+&lt;p&gt;巴西总统大选首轮投票结果出炉，右翼参议员、前总统博索纳罗之子小博索纳罗（Flávio Bolsonaro）以超出民调预期的优势领先现任左翼总统卢拉，两人将于10月25日进行第二轮决选。小博索纳罗的崛起反映了巴西社会对治安、腐败及经济停滞的不满，右翼势力在基层动员上展现出强大韧性。
+&lt;a href="https://www.france24.com/en/americas/20261005-brazil-presidential-election-runoff-bolsonaro-lula"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3782995"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+巴西政治风向标指向拉美地区的右转趋势。若小博索纳罗最终胜选，则巴西可能在亚马逊保护、对华关系及多边主义立场上发生重大转变，对全球大宗商品贸易格局产生深远影响。&lt;/p&gt;
+&lt;h2&gt;分类阅读&lt;/h2&gt;
+&lt;h3&gt;财经与市场&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;美股动态&lt;/strong&gt;：标普500指数创历史新高，但市场广度收窄，野村警告指数“严重失真”，十只股票贡献七成涨幅。&lt;a href="https://wallstreetcn.com/articles/3783332"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;加密货币&lt;/strong&gt;：Solana ETF周流入创1.88亿美元纪录；ARK Invest推出持有SpaceX和OpenAI的以太坊基金。&lt;a href="https://www.nasdaq.com/articles/solana-etfs-just-set-new-record-188-million-weekly-inflows-heres-why-im-bullish-solana"&gt;Nasdaq Markets&lt;/a&gt; | &lt;a href="https://www.nasdaq.com/articles/crypto-investors-can-now-buy-cathie-wood-investment-fund-holds-spacex-and-openai-heres"&gt;Nasdaq Markets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;大宗商品&lt;/strong&gt;：超强厄尔尼诺推升橡胶、铜等农产品及金属价格；智利Centinela铜矿罢工加剧供应紧张。&lt;a href="https://wallstreetcn.com/member/articles/3783241"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783288"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中国市场&lt;/strong&gt;：证监会拟降低权益类基金成立门槛至5000万元；财政部安排5500亿元地方债结存限额。&lt;a href="https://wallstreetcn.com/articles/3783291"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783299"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;科技与创新&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI应用&lt;/strong&gt;：Anthropic发布Claude Haiku 5.5，价格暴降90%；OpenAI GPT-6免费开放，拒答减少。&lt;a href="https://wallstreetcn.com/articles/3783207"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783185"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;半导体&lt;/strong&gt;：ASML零部件价格全线上调10%；SK海力士分拆Solidigm赴美IPO，募资约100亿美元。&lt;a href="https://wallstreetcn.com/articles/3783320"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783150"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;机器人&lt;/strong&gt;：Figure 02退役视频引发热议；吉利银河战舰700新能源越野车发布，12分钟订单破万。&lt;a href="https://wallstreetcn.com/charts/41959994"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="http://www.geekpark.net/news/372213"&gt;极客公园&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;国际关系&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;中东局势&lt;/strong&gt;：伊朗称油轮触雷爆炸，美军首次打击商业货轮；胡塞武装警告关闭利雅得机场。&lt;a href="https://wallstreetcn.com/articles/3783372"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3783380"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;欧洲政治&lt;/strong&gt;：教皇Leo XIV将进行肺部结节手术；法国学生抗议持续，警方暂停使用震爆弹。&lt;a href="https://www.france24.com/en/europe/20261011-pope-leo-says-will-undergo-surgery-for-early-stage-lung-nodule"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.france24.com/en/france/20261007-france-suspends-the-use-of-stun-grenades-after-student-protester-loses-hand"&gt;France 24 English&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;：吉布提海域船只倾覆致至少109名移民死亡；诺贝尔和平奖授予南非法官Navi Pillay。&lt;a href="https://www.france24.com/en/africa/20261011-at-least-hundred-migrants-dead-scores-missing-after-boat-capsizes-off-djibouti"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.france24.com/en/europe/20261009-south-africa-s-navanethem-navi-pillay-wins-2026-nobel-peace-prize"&gt;France 24 English&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;下周观察&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;中美CPI数据&lt;/strong&gt;：美国9月CPI与中国CPI、PPI将于下周同日揭晓，直接影响美联储及中国央行的政策预期。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;台积电与ASML财报&lt;/strong&gt;：两家半导体设备与代工巨头的业绩将验证AI产业链景气度及资本开支趋势。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic投资者日&lt;/strong&gt;：关注其最新营收数据及IPO进展，评估AI独角兽的商业化能力。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;沃什讲话&lt;/strong&gt;：美联储主席候选人沃什在IMF年会期间的发言，可能透露未来货币政策倾向。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中东局势演变&lt;/strong&gt;：跟踪胡塞武装与沙特联军的冲突升级情况，以及霍尔木兹海峡航运恢复进度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;值得阅读全文&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/articles/3783383"&gt;英伟达表外承诺飙升至5300亿美元！SemiAnalysis：未来可能突破1万亿美元&lt;/a&gt;&lt;/strong&gt;：深入解析英伟达财务结构的隐性风险。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/articles/3783377"&gt;如今美光赚得比苹果还多！苹果急需芯片，美光掌握定价权&lt;/a&gt;&lt;/strong&gt;：揭示内存短缺如何重塑科技巨头利润分配。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/articles/3783234"&gt;SpaceX、博通、甲骨文密集天量发债！美国债市“挤爆了”&lt;/a&gt;&lt;/strong&gt;：全景展现AI融资狂潮对全球信用市场的冲击。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item><item><title>新闻周报-2026-W40</title><link>https://zjcjim.github.io/rss-briefing/weekly/2026-W40.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/weekly/2026-W40.html</guid><pubDate>Sun, 04 Oct 2026 19:24:23 +0800</pubDate><category>周报</category><description>&lt;h2&gt;本周概览&lt;/h2&gt;
 &lt;p&gt;本周全球市场与地缘政治呈现剧烈震荡。宏观层面，美债收益率创多年新高引发全球债市抛售，美联储加息预期在非农爆冷后出现分歧；AI产业进入“超级周期”验证期，Muse等智能体应用引爆算力需求，但安全争议与估值泡沫担忧并存。地缘方面，中东局势因胡塞武装袭击沙特设施再度升级，巴西大选胶着牵动拉美格局，法国学生抗议蔓延加剧社会撕裂。&lt;/p&gt;
 &lt;h2&gt;最值得关注&lt;/h2&gt;
 &lt;h3&gt;01 / 全球债市风暴：美债收益率飙升与央行应对&lt;/h3&gt;
