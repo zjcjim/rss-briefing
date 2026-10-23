@@ -1,5 +1,112 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>我的 RSS 新闻日报</title><link>https://zjcjim.github.io/rss-briefing</link><description>AI 生成的中文新闻日报</description><language>zh-CN</language><lastBuildDate>Wed, 21 Oct 2026 19:18:46 +0800</lastBuildDate><atom:link href="https://zjcjim.github.io/rss-briefing/daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>新闻日报-2026-10-21</title><link>https://zjcjim.github.io/rss-briefing/daily/2026-10-21.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/daily/2026-10-21.html</guid><pubDate>Wed, 21 Oct 2026 19:18:46 +0800</pubDate><category>日报</category><description>&lt;h2&gt;今日概览&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>我的 RSS 新闻日报</title><link>https://zjcjim.github.io/rss-briefing</link><description>AI 生成的中文新闻日报</description><language>zh-CN</language><lastBuildDate>Fri, 23 Oct 2026 19:19:22 +0800</lastBuildDate><atom:link href="https://zjcjim.github.io/rss-briefing/daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>新闻日报-2026-10-23</title><link>https://zjcjim.github.io/rss-briefing/daily/2026-10-23.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/daily/2026-10-23.html</guid><pubDate>Fri, 23 Oct 2026 19:19:22 +0800</pubDate><category>日报</category><description>&lt;h2&gt;今日概览&lt;/h2&gt;
+&lt;p&gt;今日全球市场与地缘政治呈现多重压力叠加态势。受中东局势升级及AI资本开支担忧影响，美债收益率大幅下行，黄金价格一度失守4000美元关口，亚太股市普遍承压，韩国股市估值跌至历史低位。科技领域，PHP爆发严重安全漏洞引发全球互联网恐慌，Anthropic坚持推进IPO直面流动性考验，OpenAI融资估值下调。国际关系方面，法国因抗议活动陷入政治动荡并部署军队，以色列下令关闭约旦河西岸，俄罗斯柴油重返美国市场，巴西总统大选进入最后冲刺阶段。国内层面，国务院常务会议聚焦人口高质量发展，国家信息化“十五五”规划出台，首批主动ETF发行首日即告售罄。&lt;/p&gt;
+&lt;h2&gt;财经与市场&lt;/h2&gt;
+&lt;h3&gt;01 / 美债收益率创三年最大单日跌幅，避险逻辑重回主导&lt;/h3&gt;
+&lt;p&gt;周四至周五，受AI科技股集中抛售、法国主权债务危机加剧与中东油价冲击三重压力影响，美国国债市场迎来三年来最猛烈的单日反弹。10年期美债收益率单日下行19.3个基点至4.952%，重回5%下方，创2023年3月硅谷银行危机以来最大单日跌幅。与此同时，现货黄金一度跌破4000美元/盎司关口，汇丰指出在股市下跌、债券收益率上行环境下，黄金可能因投资者急于筹集现金而遭到抛售，难以发挥短期避险作用。市场对美联储加息预期推迟至明年1月。
+&lt;a href="https://wallstreetcn.com/articles/3784314"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784308"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;市场解读&lt;/strong&gt;
+本轮美债反弹主要源于风险资产（特别是高估值的AI板块）的剧烈调整引发的资金避险需求，而非基本面通胀数据的显著改善。黄金与股票同跌的现象表明，在市场极度波动时，流动性需求可能暂时压倒传统的避险属性，导致投资者抛售所有可变现资产以补充保证金或应对赎回。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;投资建议&lt;/strong&gt;
+建议关注短久期债券的配置价值，策略方向为防御性持有，适用期限为中短期。成立条件在于市场波动率维持高位且美联储暂停加息的预期得到确认。对于黄金，建议等待确认其作为传统避险资产的回归信号，避免在流动性紧张导致的非理性抛售中盲目抄底，可采取分散风险策略，将部分仓位转向现金或高等级信用债。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;风险提示&lt;/strong&gt;
+若中东局势进一步恶化推高能源通胀，或美国就业数据意外强劲，可能导致美联储重新收紧政策，从而逆转当前的债券牛市；此外，流动性危机若持续蔓延，可能引发更广泛的资产错杀。&lt;/p&gt;
+&lt;h3&gt;02 / 亚洲股市遭遇重挫，韩国估值跌至历史极端低位&lt;/h3&gt;
+&lt;p&gt;周五亚太股市普遍下跌，MSCI亚太指数下跌1%，连续第四周亏损。韩国综合指数盘中一度重挫逾4%，日本日经225指数亦跌近2%。根据彭博数据，KOSPI指数未来12个月预期市盈率已降至仅4.2倍，成为有记录以来首个跌破5倍关口的万亿美元级市场。瑞银指出亚洲股市技术面已接近极度超卖区间，美股空头仓位的快速累积正令市场从“下跌缺口”风险转向“空头挤压”风险。
+&lt;a href="https://wallstreetcn.com/articles/3784279"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784293"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784302"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;市场解读&lt;/strong&gt;
+韩股估值的极端压缩反映了全球资金对AI基础设施投资回报率的深度质疑，以及地缘政治风险溢价上升导致的资本外流。这种低估值状态通常意味着市场情绪极度悲观，但也可能预示着均值回归的机会，前提是宏观环境不再进一步恶化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;投资建议&lt;/strong&gt;
+建议采取逢低分批布局的策略，重点关注半导体等周期性行业，适用期限为中长期。成立条件是确认全球AI资本开支并未出现断崖式下滑，且韩国出口数据企稳。投资者应避免一次性重仓追高，而是利用波动进行网格交易或定投，同时密切监控日元汇率变动，因其常被用作对冲工具。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;风险提示&lt;/strong&gt;
+若AI泡沫破裂加速，或韩国企业盈利预期继续下修，低估值陷阱可能持续；此外，地缘冲突升级可能导致外资进一步撤离新兴市场。&lt;/p&gt;
+&lt;h3&gt;03 / 首批主动ETF发行首日售罄，公募基金新战场开启&lt;/h3&gt;
+&lt;p&gt;10月23日，内地公募基金业首批18只主动ETF正式启动首发募集。其中，摩根基金与易方达基金旗下的两只主动ETF双双触及20亿元的首募上限，实现一日售罄。此次募集的主动ETF单只上限20亿元，管理费率1%，合计募集资金预计超过100亿元人民币。这标志着ETF的主动管理时代正式开启，为投资者提供了介于被动指数和传统主动基金之间的新选择。
+&lt;a href="https://wallstreetcn.com/articles/3784324"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784287"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;市场解读&lt;/strong&gt;
+主动ETF的一日售罄反映出市场对兼具透明度和主动选股能力的产品的强烈需求。在传统主动基金业绩承压的背景下，投资者倾向于寻找费率更低、持仓更透明的替代方案。这也显示了公募机构在产品线创新上的竞争加剧。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;投资建议&lt;/strong&gt;
+建议关注头部基金公司发行的主动ETF产品，策略方向为长期配置，适用期限取决于基金经理的超额收益稳定性。成立条件是所选基金经理具备持续的Alpha获取能力且跟踪误差可控。投资者可将其作为核心组合的卫星配置，分散单一风格暴露的风险，但需注意主动ETF可能存在的高换手率带来的隐性成本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;风险提示&lt;/strong&gt;
+主动管理能力不及预期可能导致跑输基准指数；此外，初期规模过大可能影响策略执行效率，需警惕流动性冲击下的折溢价风险。&lt;/p&gt;
+&lt;h3&gt;04 / 花旗获外商独资券商牌照，金融业对外开放深化&lt;/h3&gt;
+&lt;p&gt;证监会核准设立花旗证券（中国），这意味着花旗获得第7张外商独资券商牌照。此前已有摩根大通、高盛、渣打等6家外商独资券商。随着外资机构在华业务布局进一步拓展，中国金融市场的参与主体和竞争格局有望持续变化。Visa在华全资子公司也已获准筹备银行卡清算机构。
+&lt;a href="https://wallstreetcn.com/articles/3784320"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784316"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;市场解读&lt;/strong&gt;
+这一进展是中国金融业高水平对外开放的具体体现，旨在引入更多元化的市场主体，提升服务实体经济的能力和国际竞争力。外资券商的进入可能在财富管理、跨境投行等领域带来新的服务模式和技术手段。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;投资建议&lt;/strong&gt;
+建议关注具备跨境业务优势和中资背景的大型券商龙头，策略方向为结构性机会挖掘，适用期限为中长期。成立条件是外资准入政策平稳落地且未引发恶性价格战。投资者可留意那些在机构服务和国际化布局上有先发优势的标的，避免过度追逐概念炒作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;风险提示&lt;/strong&gt;
+市场竞争加剧可能压缩本土券商利润率；监管政策的变化可能影响外资机构的实际展业进度。&lt;/p&gt;
+&lt;h2&gt;产业与行业研报&lt;/h2&gt;
+&lt;h3&gt;01 / 国家信息化“十五五”规划发布，聚焦算力网与AI芯片&lt;/h3&gt;
+&lt;p&gt;中央网络安全和信息化委员会印发《国家信息化“十五五”规划》，提出到2030年新一代通信网全面建成，适时启动6G商用。规划强调加快构建全国一体化算力网，推动算力、电力、网络协同发展，研制高性能人工智能芯片和高可用基础软件栈。此外，还提出推动电信、互联网等领域有序扩大开放，加大软件和信息服务业对外开放力度。
+&lt;a href="https://wallstreetcn.com/articles/3784322"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+该规划明确了未来五年中国在数字基础设施领域的战略重点，特别是将算力、电力和网络协同提升至国家战略高度，这可能预示着后续会有更多针对数据中心能耗管理和电网智能化的政策支持。研制高性能AI芯片的目标则直接回应了当前供应链安全的痛点，可能加速国产替代进程。&lt;/p&gt;
+&lt;h3&gt;02 / 西部数据财报超预期但遭高盛下调目标价，HDD扩产隐忧浮现&lt;/h3&gt;
+&lt;p&gt;西部数据公布强劲季度成绩单，收入、毛利率与每股盈利均大幅超越市场预期，管理层透露核心客户订单排至2030年。然而，高盛认为竞争对手潜在的产能扩张将对硬盘（HDD）板块的估值倍数构成长期压制，股价短期内料将小幅承压，因此下调了其目标价，并更看好HAMR进展顺利的希捷。
+&lt;a href="https://wallstreetcn.com/articles/3784310"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784270"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+尽管短期业绩亮眼，但市场开始担忧存储行业的周期性供给过剩风险。如果主要厂商纷纷扩大产能以满足AI带来的海量数据存储需求，可能导致未来几年供需失衡，进而压低产品价格和利润率。这表明投资者正在从单纯的“需求增长”叙事转向对“供给纪律”的审视。&lt;/p&gt;
+&lt;h3&gt;03 / 售电公司批零倒挂困局：广西央企联名上书，广东亏损面近六成&lt;/h3&gt;
+&lt;p&gt;广西9家央企售电公司联名上书反映1—8月累计亏损超20亿元，全年或破50亿元。广东情况同样尖锐，2026年上半年298家售电公司亏损，亏损面59.6%，全行业度电获利大幅下降。这反映出电力市场化改革进程中，售电侧面临的严峻挑战，特别是在电价机制尚未完全理顺的情况下。
+&lt;a href="https://wallstreetcn.com/member/articles/3783764"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+售电公司的集体亏损揭示了当前电力市场中批发端与零售端价格传导机制的扭曲。若长协电价上涨无法有效向下游用户传导，售电环节将持续承压。这可能促使监管层进一步优化电力市场规则，平衡发电、输电、配电和售电各环节的利益分配，以确保市场主体的生存能力和供电稳定性。&lt;/p&gt;
+&lt;h2&gt;科技与前沿&lt;/h2&gt;
+&lt;h3&gt;01 / PHP爆发高危漏洞引发全球互联网恐慌，志愿者紧急修补&lt;/h3&gt;
+&lt;p&gt;10月21日，支撑全球约七成网站的编程语言PHP被曝出两个CVSS评分9.2的远程代码执行漏洞。各国政府网站下线，Cloudflare观测到数百万次攻击尝试。在补丁发布前，住在捷克的志愿者Ondřej Surý提前打包软件包，帮助数百万服务器快速修复。基金会承认此前因资源不足导致修复拖延近两年，属“结构性失败”。
+&lt;a href="https://wallstreetcn.com/articles/3784325"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://www.npr.org/2026/10/23/g-s1-149503/hacking-php-flaws"&gt;NPR World&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+此事件暴露了关键开源基础设施维护的脆弱性，即大量核心组件依赖少数无偿志愿者维护，存在巨大的单点故障风险。AI辅助发现漏洞的速度远超人工修补速度，可能改变网络攻防的时间尺度，迫使企业和政府重新评估开源软件的安全治理模式，增加对关键基础设施维护者的资金支持。&lt;/p&gt;
+&lt;h3&gt;02 / Anthropic坚持推进IPO，估值1.5万亿直面流动性大考&lt;/h3&gt;
+&lt;p&gt;在同类公司纷纷延期或撤单的背景下，AI实验室Anthropic计划最快于10月底公开招股说明书，并于11月中旬完成IPO，潜在估值高达1.5万亿美元。其上半年营收163亿美元，但净亏损骤扩至807亿美元（含非现金项目）。此举被视为测试当前市场对AI巨头流动性和估值容忍度的风向标。
+&lt;a href="https://wallstreetcn.com/articles/3784294"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+Anthropic逆势上市表明其对自身商业模式和长期价值的信心，同时也反映了AI赛道头部效应加剧，中小玩家退出，巨头通过资本市场巩固地位。若IPO成功，可能提振整个AI板块情绪；若遇冷，则可能引发市场对AI估值泡沫的进一步修正。&lt;/p&gt;
+&lt;h3&gt;03 / IBM CEO警告量子计算威胁，后量子密码学升级迫在眉睫&lt;/h3&gt;
+&lt;p&gt;IBM CEO Arvind Krishna指出，业界预计能够破解现有加密技术的量子计算机可能在2030年前后出现。即使加密硬盘被盗，攻击者也可能保存数据待未来破解。他强调后量子密码学技术已具备，关键在于人们迟迟没有采取行动，必须尽快升级加密系统。
+&lt;a href="https://wallstreetcn.com/articles/3784283"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+这一警告凸显了“现在窃取，以后解密”（Harvest Now, Decrypt Later）的现实威胁。随着量子计算进展，传统公钥加密体系的安全性面临根本性挑战。金融机构和政府部门需加速部署抗量子算法，否则长期敏感数据将面临泄露风险。这也将推动相关硬件和软件标准的更新换代。&lt;/p&gt;
+&lt;h2&gt;国际关系&lt;/h2&gt;
+&lt;h3&gt;01 / 法国政治动荡加剧，抗议活动引发债市压力与军队部署&lt;/h3&gt;
+&lt;p&gt;法国因生活成本抗议活动陷入动荡，政府史无前例地将军队部署至街头，并限制只有工会组织的抗议方可获批。法德10年期国债利差扩大至175基点，创14年新高，穆迪降级进入倒计时。总理勒科尔尼称周六将有约7万名安保力量动员。巴黎部分地区实施宵禁。
+&lt;a href="https://wallstreetcn.com/articles/3784297"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://www.france24.com/en/europe/20261023-macron-meets-with-student-representatives-and-law-enforcement-ahead-of-new-protests"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.france24.com/en/curfew-imposed-in-certain-areas-of-paris-every-night-until-monday-morning"&gt;France 24 English&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+社会动荡正转化为经济风险，主权利差的飙升反映了市场对法国财政可持续性和政治稳定性的担忧。政府强硬手段虽短期遏制暴力，但可能加深社会撕裂，若抗议持续，可能迫使欧盟介入或引发更广泛的政治危机。&lt;/p&gt;
+&lt;h3&gt;02 / 胡塞武装袭击沙特阿美总部，布油突破113美元&lt;/h3&gt;
+&lt;p&gt;也门胡塞武装导弹据称命中沙特阿美决策中枢，导致总部大楼顶部三层受损，员工紧急疏散居家办公。布伦特原油盘中涨超4%，收于113美元上方，创五个多月新高。伊朗革命卫队宣布击中波斯湾四艘油轮，地区能源安全风险急剧升温。
+&lt;a href="https://wallstreetcn.com/articles/3784262"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+对沙特核心石油设施的直接打击打破了以往“代理人战争”不触碰关键基础设施的默契，显示冲突烈度升级。油价飙升将加剧全球通胀压力，并可能促使美国及其盟友采取更直接的军事回应，进而引发更大范围的地缘政治震荡。&lt;/p&gt;
+&lt;h3&gt;03 / 俄罗斯柴油重返美国，特朗普寻求中期选举前缓解油价压力&lt;/h3&gt;
+&lt;p&gt;一艘装载4万吨俄罗斯超低硫柴油的油轮正驶往纽约，预计11月7日抵达。俄方确认根据协议供应已启动。特朗普政府希望借此增加燃料供应、缓解美国油价压力，并在11月3日中期选举前争取选民支持。这是自2023年欧盟禁令后，俄柴油流向的新变化。
+&lt;a href="https://wallstreetcn.com/articles/3784318"&gt;华尔街见闻&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+这一举动表明美国在地缘政治利益与国内经济民生压力之间做出了务实妥协。恢复俄油进口可能削弱西方制裁联盟的一致性，但也反映了美国在中东供应不稳定背景下，急需多元化能源来源以平抑国内通胀的政治考量。&lt;/p&gt;
+&lt;h3&gt;04 / 巴西总统大选进入最后冲刺，卢拉对阵博索纳罗之子&lt;/h3&gt;
+&lt;p&gt;周日巴西将进行总统大选第二轮投票，左翼现任总统卢拉与右翼参议员弗拉维奥·博索纳罗（前总统雅伊尔·博索纳罗之子）对决。民调显示两人差距在误差范围内，弗拉维奥领先。若博索纳罗家族获胜，将延续拉美右翼浪潮，并可能赦免其父。
+&lt;a href="https://www.npr.org/2026/10/23/nx-s1-6004277/brazil-vote-runoff-lula-bolsonaro"&gt;NPR World&lt;/a&gt; | &lt;a href="https://www.france24.com/en/tv-shows/the-debate/20261022-back-to-the-bolsonaros-brazil-presidential-run-off-goes-down-to-the-wire"&gt;France 24 English&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;简要解读&lt;/strong&gt;
+巴西大选结果将决定南美最大经济体的政策走向，影响全球大宗商品供应和气候合作。博索纳罗家族的崛起标志着巴西右翼政治的代际传承，若当选，可能强化与美国保守派的联系，并对亚马逊雨林保护政策产生深远影响。&lt;/p&gt;
+&lt;h2&gt;分类快讯&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;国内政策&lt;/strong&gt;：李强主持召开国务院常务会议，强调统筹人口与经济社会关系，完善相关政策以释放人口综合红利。&lt;a href="https://wallstreetcn.com/articles/3784329"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业财报&lt;/strong&gt;：紫金矿业前三季度归母净利润575.26亿元，同比增长51.93%；寒武纪Q3净利润14亿元，同比增长147.74%。&lt;a href="https://wallstreetcn.com/articles/3784327"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784326"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;科技动态&lt;/strong&gt;：月之暗面发布预热视频，暗示Kimi K3.1模型即将上线；DeepSeek据悉完成约1000亿元人民币新一轮融资，腾讯和宁德时代为主要投资方。&lt;a href="https://wallstreetcn.com/articles/3784312"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="http://www.geekpark.net/news/372767"&gt;极客公园&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;国际突发&lt;/strong&gt;：南非反移民抗议中一名外国公民被杀害，警方调查谋杀案；法国巴黎郊区发生枪击案，至少一人死亡，检方按恐怖袭击调查。&lt;a href="https://www.france24.com/en/sa-faces-rising-tension-as-foreign-national-is-killed-amid-anti-migrant-protests"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack"&gt;France 24 English&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自然灾害&lt;/strong&gt;：西藏那曲市巴青县发生7.0级地震，已致18人遇难，自治区启动二级应急响应；台风“查帕卡”逼近台湾，学校和企业关闭，至少一人死亡。&lt;a href="https://wallstreetcn.com/articles/3784252"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://www.france24.com/en/asia-pacific/20261023-taiwan-shuts-down-schools-and-businesses-as-typhoon-champi-approaches"&gt;France 24 English&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;：泡泡玛特推出售价299元的LABUBU游戏机；莫德纳黑色素瘤疫苗数据泄露不及预期，股价一度大跌26%。&lt;a href="https://wallstreetcn.com/articles/3784321"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784254"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;值得阅读全文&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/articles/3784325"&gt;全网恐慌48小时，拯救互联网的却是一个“无名之辈”&lt;/a&gt;&lt;/strong&gt;：深入剖析PHP漏洞危机背后的开源维护困境与AI加速攻防的现状。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/articles/3784294"&gt;同行IPO集体退潮，Anthropic独闯11月中旬窗口&lt;/a&gt;&lt;/strong&gt;：详细解读Anthropic在高估值与流动性紧缩双重压力下的上市策略。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.npr.org/2026/10/23/g-s1-149498/europe-heat-deaths"&gt;欧洲热浪夺走5万生命，气候变化归因三分之二死亡&lt;/a&gt;&lt;/strong&gt;：基于最新研究，量化极端高温对公共健康的致命影响及适应措施的紧迫性。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item><item><title>新闻日报-2026-10-21</title><link>https://zjcjim.github.io/rss-briefing/daily/2026-10-21.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/daily/2026-10-21.html</guid><pubDate>Wed, 21 Oct 2026 19:18:46 +0800</pubDate><category>日报</category><description>&lt;h2&gt;今日概览&lt;/h2&gt;
 &lt;p&gt;今日全球市场与地缘政治呈现复杂交织态势。科技领域，英伟达宣布大幅扩充AI供应链产能，SpaceX财报亮眼并确认与特斯拉探讨合并可能，引发资本市场对AI基建前景的重新定价；同时高通启动绩效裁员，反映消费电子承压下的行业调整。宏观层面，中国央行推进政策利率换锚，中办国办发布推动科技创新与产业创新深度融合的意见，旨在强化企业主导的产学研融通。国际局势方面，美国特使赴俄会晤普京，俄乌谈判进入关键窗口期；中东局势持续紧张，美以伊三方博弈加剧，推升能源价格波动风险。欧洲内部，法国与意大利因社会动荡加强安保部署，英国通胀数据攀升影响欧股表现。整体而言，AI算力供需矛盾、地缘冲突外溢效应及主要经济体货币政策微调构成当前市场核心变量。&lt;/p&gt;
 &lt;h2&gt;财经与市场&lt;/h2&gt;
 &lt;h3&gt;01 / SpaceX业绩超预期并确认与特斯拉探讨合并&lt;/h3&gt;
