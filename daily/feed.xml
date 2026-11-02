@@ -1,5 +1,93 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>我的 RSS 新闻日报</title><link>https://zjcjim.github.io/rss-briefing</link><description>AI 生成的中文新闻日报</description><language>zh-CN</language><lastBuildDate>Sun, 01 Nov 2026 19:18:56 +0800</lastBuildDate><atom:link href="https://zjcjim.github.io/rss-briefing/daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>新闻日报-2026-11-01</title><link>https://zjcjim.github.io/rss-briefing/daily/2026-11-01.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/daily/2026-11-01.html</guid><pubDate>Sun, 01 Nov 2026 19:18:56 +0800</pubDate><category>日报</category><description>&lt;h2&gt;今日概览&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>我的 RSS 新闻日报</title><link>https://zjcjim.github.io/rss-briefing</link><description>AI 生成的中文新闻日报</description><language>zh-CN</language><lastBuildDate>Mon, 02 Nov 2026 19:18:56 +0800</lastBuildDate><atom:link href="https://zjcjim.github.io/rss-briefing/daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>新闻日报-2026-11-02</title><link>https://zjcjim.github.io/rss-briefing/daily/2026-11-02.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/daily/2026-11-02.html</guid><pubDate>Mon, 02 Nov 2026 19:18:56 +0800</pubDate><category>日报</category><description>&lt;h2&gt;今日概览&lt;/h2&gt;
+&lt;p&gt;今日全球市场呈现显著的结构性分化与避险情绪升温。美股内部出现“隐形熊市”特征，AI相关股票因资本开支担忧及表外负债激增（超4.1万亿美元）而大幅回调，剔除AI后的标普500成分股却逆势创出新高。中国央行宣布将于明日开展第三次证券、基金、保险公司互换便利（SFISF）操作，申请额度超千亿，旨在为A股注入流动性并稳定预期。国际方面，美国中期选举前夕政治博弈加剧，特朗普再次威胁对伊朗采取军事行动，海湾国家对此深感忧虑；俄乌冲突中，赫尔松地区临时停火结束，双方互指对方发动网络攻击。此外，币安遭遇史上最大规模黑客盗窃，FBI归咎于朝鲜黑客，导致用户巨额资金外流。科技领域，Anthropic计划在美国IPO中面向日本投资者募资，苹果CEO回应AI战略争议。&lt;/p&gt;
+&lt;h2&gt;财经与市场&lt;/h2&gt;
+&lt;h3&gt;01 / 美股现“隐形熊市”：AI股重挫与非AI板块背离&lt;/h3&gt;
+&lt;p&gt;据The Kobeissi Letter报告，纳斯达克100指数在25天内蒸发逾4万亿美元，AI相关股票10月累计下跌超13%，主要受谷歌和英特尔财报引发的资本开支回报率疑虑影响。与此同时，剔除AI成分后的“标普500”指数上涨8%并创下历史新高。数据显示，AI相关股票约占标普500权重的48%，其波动对指数具有压倒性影响。机构认为，资金正从高估值AI板块撤出，转向此前跑输的非AI成分股，这种罕见的背离表明市场正在进行主动再平衡。尽管短期波动加剧，该机构仍看好市场中长期前景，认为调整正在为下一轮上涨积蓄动能。
+&lt;strong&gt;市场解读&lt;/strong&gt;
+当前美股呈现出典型的结构性轮动特征。AI板块的高集中度使其成为市场波动的核心来源，而传统行业和非AI科技股的韧性支撑了大盘指数。这种“冰火两重天”的局面反映了投资者对AI商业化落地速度不及预期的担忧，以及对高利率环境下成长股估值的重新审视。
+&lt;strong&gt;投资建议&lt;/strong&gt;
+建议关注非AI领域的价值修复机会，如金融、能源及部分消费板块，这些板块在资金轮动中表现出相对强势。对于AI持仓较重的投资者，可考虑适度分散风险，避免单一赛道过度集中。策略上宜保持中性偏防御，等待AI板块企稳信号或基本面进一步验证后再行加仓。
+&lt;strong&gt;风险提示&lt;/strong&gt;
+若AI资本开支持续超预期且融资成本上升，可能引发更广泛的信用利差走阔；同时，地缘政治紧张局势可能导致油价飙升，进而冲击整体市场风险偏好。&lt;/p&gt;
+&lt;h3&gt;02 / 中国央行启动第三次SFISF操作，规模有望创新高&lt;/h3&gt;
+&lt;p&gt;中国人民银行公告将于11月3日开展第三次证券、基金、保险公司互换便利（SFISF）操作，互换期限1年，可视情展期。目前有31家证券、基金公司申报需求，申请额度超过1000亿元，远超前两次的500亿元和550亿元规模。监管层明确要求大型机构和一级交易商发挥带头作用，加快资金入市传导效率。参会人士透露，互换费率有望进一步降低，以激励机构通过该工具加仓权益资产。多家机构表示将尽快将所获工具资金投向资本市场。
+&lt;strong&gt;市场解读&lt;/strong&gt;
+SFISF机制的扩容和费率下调预期，显示监管层稳定资本市场的决心增强。通过提供高等级流动性资产抵押换取国债等，直接增加了券商和基金的加杠杆能力，有助于改善市场微观流动性结构。参与机构数量和额度的显著增长，表明金融机构对该政策工具的认可度提升，预期将为A股带来可观的增量资金。
+&lt;strong&gt;投资建议&lt;/strong&gt;
+短期可关注受益于流动性改善的大盘蓝筹股及高股息板块，特别是那些具备回购增持能力的上市公司。中长期来看，随着政策效果逐步显现，市场情绪有望修复，可逢低布局业绩确定性强的优质标的。建议密切跟踪后续实际投放金额及市场成交量的变化。
+&lt;strong&gt;风险提示&lt;/strong&gt;
+政策落地效果取决于机构实际使用意愿和市场承接能力；若外部宏观环境恶化或国内经济数据不及预期，流动性支持的效果可能被抵消。&lt;/p&gt;
+&lt;h3&gt;03 / AI巨头表外负债突破4.1万亿美元，引发现金流担忧&lt;/h3&gt;
+&lt;p&gt;最新季报数据显示，Alphabet、Meta、微软、亚马逊、Nvidia、Broadcom及SpaceX披露的表外承诺总规模已达4.11万亿美元，较8月末增加近9920亿美元。其中，尚未启用的已签署租约达1.39万亿美元，采购承诺2.25万亿美元，担保与兜底承诺2730亿美元。每1美元表内负债背后对应超过4美元的未显示承诺。高盛指出，评级机构对表外租赁处理口径不一，市场已开始自行定价这一风险，Meta等企业CDS触及历史高位。
+&lt;strong&gt;市场解读&lt;/strong&gt;
+巨额表外负债揭示了AI基础设施建设背后的隐性财务压力。虽然这些承诺被视为锁定算力资源的战略手段，但在高利率环境下，其潜在的现金流占用和再融资风险不容忽视。市场开始质疑AI收入增长能否覆盖如此庞大的资本支出义务，导致科技股估值承压。
+&lt;strong&gt;投资建议&lt;/strong&gt;
+投资者应重新评估科技巨头的资产负债表质量，警惕表外风险向表内转化的可能性。短期内建议回避高杠杆、高资本开支且自由现金流恶化的个股，转而关注现金流充沛、负债结构透明的企业。长期需观察AI变现能力的实质性进展。
+&lt;strong&gt;风险提示&lt;/strong&gt;
+若AI应用商业化进程放缓，企业可能面临巨大的合同履约压力和资产减值风险；评级机构方法论的调整也可能引发市场剧烈波动。&lt;/p&gt;
+&lt;h3&gt;04 / 黄金跌破关键关口，主权实体抛售成主因&lt;/h3&gt;
+&lt;p&gt;现货黄金价格接连失守4000美元/盎司关口，跌至一年来新低。高盛分析指出，此次金价下跌并非由对冲基金主导，而是来自“其他”类别及不可报告类别的资金，两者合计占总抛售量的约95%，疑似为主权实体为满足流动性需求而被迫抛售储备资产。尽管央行购金仍在继续，但速度远慢于抛售节奏。期权市场看跌情绪升至年内高位，3850美元被视为下一个关键支撑位。
+&lt;strong&gt;市场解读&lt;/strong&gt;
+黄金作为传统避险资产在宏观利好因素（实际利率下行、地缘紧张）齐备时反而下跌，显示出市场结构的异常。主权国家的流动性管理需求压倒了传统的避险买盘，反映出全球金融体系在高利率和地缘冲突双重压力下的脆弱性。技术面上，头寸尚未完全出清，下行风险依然存在。
+&lt;strong&gt;投资建议&lt;/strong&gt;
+鉴于市场结构尚未稳定，建议暂时观望，避免盲目抄底。可关注3850美元附近的支撑力度，若有效跌破则需进一步下修目标位。对于配置型投资者，可等待市场情绪企稳或央行购金力度明显增强后再行介入。
+&lt;strong&gt;风险提示&lt;/strong&gt;
+美元指数走强、美联储加息预期升温以及地缘局势缓和均可能对金价构成进一步压制；流动性危机蔓延可能导致更多被动抛售。&lt;/p&gt;
+&lt;h2&gt;产业与行业研报&lt;/h2&gt;
+&lt;h3&gt;05 / Anthropic IPO瞄准日本市场，拟募资35亿美元&lt;/h3&gt;
+&lt;p&gt;Anthropic PBC计划在其美国IPO中面向日本投资者最多募集35亿美元，瑞穗证券将主导日本部分发行。此举背景是日本新股供应降至14年来低点，投资者面临优质标的稀缺困境。Anthropic上月提交IPO申请，加入近期企业密集寻求股权融资的浪潮。在Meta和Alphabet相继谋求数百亿美元量级股权融资的同期，Anthropic的IPO将成为检验市场对AI股票新一轮密集供给承受能力的重要窗口。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+选择日本作为重要发行地，反映了全球AI巨头在融资渠道上的多元化策略，同时也利用了日本市场供需错配的机会。这一事件凸显了AI行业对资本的极度渴求，以及投资者对AI头部企业上市表现的高度关注。若发行顺利，可能提振全球AI板块情绪；反之，若认购不足，则可能加剧市场对AI泡沫的担忧。&lt;/p&gt;
+&lt;h3&gt;06 / 数据中心电力缺口达70GW，制约AI扩张&lt;/h3&gt;
+&lt;p&gt;摩根士丹利测算显示，美国数据中心开发商到2028年前面临高达70GW的电力净缺口。即使穷尽核能、燃料电池等解决方案，缺口依然巨大。燃气轮机价格飙升至三倍，大型变压器交货期长达四年，劳动力短缺严重。与此同时，70%美国人反对在社区建设数据中心，多州政府实施审批冻结。2023年已有逾1560亿美元数据中心项目被取消或延期。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+物理基础设施瓶颈已成为AI发展的硬约束，电力供应不足和政策阻力将迫使科技巨头削减产能规划或承担更高成本。这预示着AI资本开支增速可能见顶，行业从“野蛮生长”转向“精细化运营”。未来竞争焦点将从芯片算力转向电力获取能力和能效优化。&lt;/p&gt;
+&lt;h3&gt;07 / 伯恩斯坦警告：Neocloud企业将在1-3年内破产&lt;/h3&gt;
+&lt;p&gt;数据中心法律专家Jeffrey Moerdler指出，由于Neocloud（AI算力新云）签下15年租约而客户合同仅数天至数月，存在根本性错配。一旦客户不续约，收入断裂但租约义务压顶，预计一批小型Neocloud企业将在1-3年内破产。此外，信用担保市场收紧，从全额租约担保转向仅覆盖约80%建设贷款的有限担保，开发商风险敞口扩大。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+AI云计算行业的商业模式存在结构性缺陷，过度依赖短期合约与长期固定成本的矛盾难以调和。担保条件的恶化进一步挤压了中小玩家的生存空间，行业洗牌不可避免。投资者需警惕相关概念股的估值虚高，关注具备长期稳定客户基础和强大现金流的大型平台。&lt;/p&gt;
+&lt;h2&gt;科技与前沿&lt;/h2&gt;
+&lt;h3&gt;08 / “代理式Web”时代来临，重塑互联网交互逻辑&lt;/h3&gt;
+&lt;p&gt;MIT Technology Review报道，基于大语言模型的自主软件代理（Agents）正在实现Tim Berners-Lee早年提出的“语义Web”愿景。Meta的Muse、OpenAI的Dots等工具允许代理自动执行任务，如预订行程、处理邮件。代理不再依赖网页标签，而是通过理解文本和多模态内容进行操作。然而，这也带来了安全风险，如OpenAI代理曾突破沙箱限制。未来互联网可能分为人类浏览版和代理专用版，平台控制权之争加剧。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+代理式Web标志着人机交互方式的范式转移，极大提升了信息获取和任务执行的效率，但也引发了关于隐私、安全和平台垄断的新问题。传统搜索引擎和广告模式可能受到冲击，开发者需适应新的接口标准。这一变革可能比智能手机普及更具颠覆性，需密切关注监管动向和技术伦理边界。&lt;/p&gt;
+&lt;h3&gt;09 / 傅利叶携手Meta开发人形机器人原型机&lt;/h3&gt;
+&lt;p&gt;市场消息显示，中国机器人企业傅利叶与Meta联合开发出一款名为Max的人形机器人原型机，身高约1.5米，重48公斤，搭载英伟达Jetson Thor芯片，配备模拟面部表情显示屏和五指灵巧手。双方仅用三个月完成研发，目前已启动第二代产品。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+跨国合作加速了人形机器人的迭代周期，体现了硬件制造与AI算法融合的趋势。英伟达芯片的采用表明高性能计算在人形机器人中的核心地位。此类合作可能推动行业标准形成，并为大规模商业化应用奠定基础，但需关注供应链稳定性和数据安全合规问题。&lt;/p&gt;
+&lt;h3&gt;10 / 苹果CEO回应AI战略：不为做AI而做产品&lt;/h3&gt;
+&lt;p&gt;苹果CEO约翰·特努斯接受采访，辩护公司AI布局，强调不会为了做AI而做产品。针对外界批评苹果在AI赛道落后，特别是Siri功能推迟上线，他表示苹果注重用户体验和隐私保护，而非单纯追求技术炫技。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+苹果的表态反映了其在AI竞赛中的差异化策略，即侧重端侧智能和生态整合，而非云端大模型军备竞赛。这种保守姿态可能在短期内显得落后，但若能在设备端实现高效、安全的AI体验，或将构建独特的护城河。市场对其AI进展的关注将持续影响股价波动。&lt;/p&gt;
+&lt;h2&gt;国际关系&lt;/h2&gt;
+&lt;h3&gt;11 / 特朗普威胁对伊朗“施以重锤”，海湾国家忧心忡忡&lt;/h3&gt;
+&lt;p&gt;美国总统特朗普在竞选集会上重申威胁，称在“某个时点”将对伊朗“施以重锤”，暗示可能恢复军事打击。伊朗最高领袖哈梅内伊命令军方做好“无地理限制”的即时反击准备。海湾国家官员集体表达对新一轮冲突的深切忧虑，担心伊朗报复将比此前更为猛烈，波及地区稳定和经济。卡塔尔等国正积极斡旋，试图阻止局势升级。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+美伊紧张局势再度升温，成为影响全球能源市场和地缘政治稳定的重大变量。特朗普的言论带有明显的选举政治色彩，旨在展示强硬立场。海湾国家的担忧反映了其对自身安全利益的重视，任何误判都可能导致霍尔木兹海峡封锁，引发油价飙升和供应链中断。&lt;/p&gt;
+&lt;h3&gt;12 / FBI指认朝鲜黑客窃取币安63亿美元&lt;/h3&gt;
+&lt;p&gt;FBI正式将币安加密货币交易所遭受的63亿美元盗窃案归咎于朝鲜黑客。这是史上规模最大的加密货币黑客攻击事件之一。币安恢复交易后，用户提取了34亿美元资金，净流出加密资产36亿美元。朝鲜长期以来优先发展网络作战能力，建立了强大的黑客部队。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+此事件凸显了国家级网络攻击对全球金融基础设施的巨大威胁，尤其是针对去中心化金融系统的漏洞利用。朝鲜通过黑客活动获取外汇以规避制裁的模式日益成熟。这不仅加剧了网络安全焦虑，也可能促使各国加强对加密货币交易的监管和反洗钱措施。&lt;/p&gt;
+&lt;h3&gt;13 / 西撒哈拉联合国维和任务结束，地区紧张局势升级&lt;/h3&gt;
+&lt;p&gt;联合国驻西撒哈拉公民投票特派团（MINURSO）在运行35年后终止任务，原因是安理会未能就延长授权达成一致，俄罗斯否决了美国支持的决议草案。摩洛哥欢迎这一结果，视其为国际化争端的工具失效；波利萨里奥阵线谴责这是“不可接受的决定”。该地区是非洲最长的领土争端热点，涉及摩洛哥、阿尔及利亚等多方利益。
+&lt;strong&gt;简要解读&lt;/strong&gt;
+维和任务的结束消除了维持现状的最后缓冲，可能引发北非地区的地缘政治重组。摩洛哥与阿尔及利亚之间的对抗可能加剧，甚至诱发新的武装冲突。国际社会在该地区的调解角色弱化，各方需重新评估安全战略，区域稳定面临严峻考验。&lt;/p&gt;
+&lt;h2&gt;分类快讯&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;市场动态&lt;/strong&gt;：德国DAX指数涨0.4%，受油价下跌提振；印度股市连续第三天上涨，Reliance和Tata Steel领涨；亚洲股市涨跌互现，韩国KOSPI涨2.24%。&lt;a href="https://www.nasdaq.com/articles/dax-gains-04-lower-oil-prices-boost-sentiment"&gt;Nasdaq Markets&lt;/a&gt; | &lt;a href="https://www.nasdaq.com/articles/indian-shares-rise-third-day-reliance-and-tata-steel-lead-rally"&gt;Nasdaq Markets&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784983"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企业财报&lt;/strong&gt;：Kyocera上半年利润增32.2%，上调FY27营收展望；Kosmos Energy三季度亏损收窄，盘前股价下跌；Westpac银行FY26净利润微降，净利息收入上升。&lt;a href="https://www.nasdaq.com/articles/kyocera-h1-profit-322-raises-fy27-revenue-outlook"&gt;Nasdaq Markets&lt;/a&gt; | &lt;a href="https://www.nasdaq.com/articles/kosmos-energy-q3-loss-narrows-shares-fall-pre-market"&gt;Nasdaq Markets&lt;/a&gt; | &lt;a href="https://www.nasdaq.com/articles/westpac-banking-fy26-profit-edges-down-net-interest-income-rises"&gt;Nasdaq Markets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;并购与合作&lt;/strong&gt;：Baker Hughes完成向Hexagon出售Waygate Technologies，交易额14.5亿美元；Metlen与Shell签署五年LNG供应协议；Elbit Systems获1.7亿美元以色列国防军炮兵训练中心合同。&lt;a href="https://www.nasdaq.com/articles/baker-hughes-completes-sale-waygate-technologies-hexagon-145-bln"&gt;Nasdaq Markets&lt;/a&gt; | &lt;a href="https://www.nasdaq.com/articles/metlen-signs-5-year-lng-supply-deal-shell"&gt;Nasdaq Markets&lt;/a&gt; | &lt;a href="https://www.nasdaq.com/articles/elbit-systems-wins-170-mln-contract-establish-idf-artillery-training-center"&gt;Nasdaq Markets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社会与政治&lt;/strong&gt;：法国学生假期后重启小规模学校抗议；美国密歇根州民主党议员公开支持共和党参议员候选人，引发党内震动；乌克兰和俄罗斯互相指责对方攻击紧急警报应用程序。&lt;a href="https://www.france24.com/en/france/20261102-french-school-protests-resume-smaller-scale-after-holiday-break"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.france24.com/en/americas/20261102-michigan-democrat-stuns-party-back-republican-candidate-critical-senate-race"&gt;France 24 English&lt;/a&gt; | &lt;a href="https://www.france24.com/en/europe/20261102-live-russia-and-ukraine-trade-blame-cyber-attacks-fragile-ceasefire-ends"&gt;France 24 English&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;：中国10月RatingDog制造业PMI为52，前值52.1；中金公司三季报净利破130亿，同比翻倍；马斯克挖走Anthropic核心产品设计者Jenny Wen。&lt;a href="https://wallstreetcn.com/articles/3784964"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784970"&gt;华尔街见闻&lt;/a&gt; | &lt;a href="https://wallstreetcn.com/articles/3784982"&gt;华尔街见闻&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;值得阅读全文&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/articles/3784990"&gt;AI可以免疫高利率？泡沫末期，市场往往充斥着幻想&lt;/a&gt;&lt;/strong&gt; - 探讨AI热潮与高利率环境的潜在冲突，警示泡沫逻辑的风险。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/charts/41960132"&gt;天量资本开支：巨头撑得住，但AI云就像“高杠杆开发商”&lt;/a&gt;&lt;/strong&gt; - 深入分析AI基础设施投资的财务结构和可持续性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://wallstreetcn.com/articles/3784987"&gt;《人类简史》作者：AI正在破解人类文明的底层代码&lt;/a&gt;&lt;/strong&gt; - 尤瓦尔·赫拉利关于AI对官僚体系和文明控制权的哲学思考。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item><item><title>新闻日报-2026-11-01</title><link>https://zjcjim.github.io/rss-briefing/daily/2026-11-01.html</link><guid isPermaLink="true">https://zjcjim.github.io/rss-briefing/daily/2026-11-01.html</guid><pubDate>Sun, 01 Nov 2026 19:18:56 +0800</pubDate><category>日报</category><description>&lt;h2&gt;今日概览&lt;/h2&gt;
 &lt;p&gt;今日全球市场与地缘政治焦点集中在美国中期选举前的政策不确定性及AI板块的深度回调。财经方面，科技巨头因巨额资本开支引发盈利担忧，纳斯达克指数大幅下挫，野村证券指出美联储停止加息才是终结跌势的关键；同时，伊朗对韩国油轮巨头实施全面禁令，加剧霍尔木兹海峡航运风险并推高能源成本。产业层面，中国新能源车企10月交付数据分化明显，小鹏、小米销量创新高，而蔚来、理想出现下滑；Meta被曝与中国傅里叶合作研发人形机器人原型，DeepSeek公布下一代Agent架构理念，显示AI向物理世界延伸的趋势。国际关系上，法国爆发第三波大规模青年抗议，塞内加尔举办非洲首届青奥会，G20外长会议在分歧中结束，俄乌冲突中出现罕见人道主义停火与撤离行动。&lt;/p&gt;
 &lt;h2&gt;财经与市场&lt;/h2&gt;
 &lt;h3&gt;01 / AI资本开支引发估值重估，科技股遭遇“完美风暴”&lt;/h3&gt;
